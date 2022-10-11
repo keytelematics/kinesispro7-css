@@ -1,10 +1,6 @@
 
 
-
-.main-nav kui-icon {
-    color: #009dd1;
-}
-
+/* restyle the company name */
 
 .user-profile {
     box-shadow: 2px 2px 7px #ccc;
@@ -14,19 +10,33 @@
     background: none;
 }
 
+.menu-collapsed .user-profile {
+    box-shadow: none;
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: none;
+    background: none;
+} 
+
+
 kui-menu-brand .brand {
     border-bottom-style: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-
 kui-menu-brand .brand img {
     max-width: 145px;
 }
 
+/* navigation icons */ 
+
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 28px;
+}
+
+.menu-collapsed .main-nav .main-nav-link {
+    padding: 0.8rem 1rem;
 }
 
 .main-nav-link.nav-link.active {
@@ -34,7 +44,7 @@ kui-menu-brand .brand img {
     border-bottom: solid 1px #ddd;
 }
 
-a.main-nav-link.nav-link.action.hover.active.open {
+a.main-nav-link.nav-link.action.hover.active {
   background: #F5FCFE !important;
 }
 
@@ -91,6 +101,10 @@ key-details-sidebar .nav-title h6 {
 
 
 /* FONT-AWESOME ICON SUBSTITUTION */
+
+.main-nav kui-icon {
+    color: #009dd1;
+}
 
 /* Profile */
 .main-nav .icon-user:before {
