@@ -30,8 +30,8 @@ kui-menu-brand .brand img {
 }
 
 .main-nav-link.nav-link.active {
-    border-top: solid 1px #ccc;
-    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
 }
 
 a.main-nav-link.nav-link.action.hover.active.open {
@@ -92,11 +92,39 @@ key-details-sidebar .nav-title h6 {
 
 /* FONT-AWESOME ICON SUBSTITUTION */
 
+/* Profile */
 .main-nav .icon-user:before {
     content: "\f4fe";
 }
 
+/* Videos */
+.main-nav .icon-photo-video:before {
+    content: "\f03d";
+}
+
+/* Administration */
+.main-nav .icon-cog:before {
+    content: "\f085";
+}
+
+/* Logout */
+.main-nav .icon-power-off:before {
+    content: "\f08b";
+}
+
+/* Notifications */
+.main-nav .icon-bells:before {
+    content: "\f8fa";
+}
+
+/* Live Map */
+.main-nav .icon-compass:before {
+    content: "\f0ac"    
+}
+
 /* CUSTOM ICON SUBSTITUTION */
+
+/*
 
 @font-face {
     font-family: 'kinesispro7';
@@ -109,8 +137,7 @@ key-details-sidebar .nav-title h6 {
     font-style: normal;
 }
 
-
-/* .icon-compass:before {
+.icon-compass:before {
     font-family: 'kinesispro7';
     content: "\e900";
     font-size: 1.2em;
