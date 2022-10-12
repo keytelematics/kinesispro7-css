@@ -68,6 +68,14 @@ a.main-nav-link.nav-link.action:hover {
 
 /* Overview details box */
 
+kui-tab-bar .tab-bar ol li kui-icon i {
+    color: var(--color-primary-color)
+}
+
+kui-content-header .content-header .icon-mount i.icon {
+    color: var(--color-primary-color)
+}
+
 key-details-sidebar .list-group-item.list-item:not(:first-child) {
     margin-left: 15px;
     padding-bottom: 0.5rem !important;
