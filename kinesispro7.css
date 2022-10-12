@@ -115,6 +115,10 @@ key-details-sidebar .nav-title h6 {
     padding: 1rem;
 }
 
+key-details-overview-summary .mb-1 {
+    margin: 0.6rem 0 !important;
+}
+
 /* show icons in tabs */
 kui-tab-bar .tab-bar ol li kui-icon {
     display: inline-block !important;
