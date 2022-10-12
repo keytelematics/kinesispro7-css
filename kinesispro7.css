@@ -111,6 +111,10 @@ key-details-sidebar .nav-title h6 {
 kui-tab-bar .tab-bar ol li kui-icon {
     display: inline-block !important;
 }
+key-overview-details kui-tab-bar .tab-bar ol li {
+    padding: 0 0.65rem;
+}
+
 
 /* FONT-AWESOME ICON SUBSTITUTION */
 
