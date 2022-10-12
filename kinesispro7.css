@@ -69,7 +69,12 @@ a.main-nav-link.nav-link.action:hover {
     margin-left: 0.6rem;
 }
 
-/* Overview details box */
+/** Overview details box */
+
+/* shows the left-chevron on the header even in desktop mode */
+key-overview-details kui-content-header .content-header .mobile-nav {
+    display: block;
+}
 
 kui-tab-bar .tab-bar ol li kui-icon i {
     color: var(--color-primary-color)
