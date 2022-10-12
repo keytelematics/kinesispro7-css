@@ -140,7 +140,7 @@ key-overview-details kui-tab-bar .tab-bar ol li {
 }
 
 /* Videos */
-.main-nav .icon-photo-video:before {
+.icon-photo-video:before {
     content: "\f03d";
 }
 
