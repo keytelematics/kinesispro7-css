@@ -107,6 +107,10 @@ key-details-sidebar .nav-title h6 {
     padding: 1rem;
 }
 
+/* show icons in tabs */
+kui-tab-bar .tab-bar ol li kui-icon {
+    display: inline-block !important;
+}
 
 /* FONT-AWESOME ICON SUBSTITUTION */
 
