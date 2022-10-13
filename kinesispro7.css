@@ -151,14 +151,62 @@ key-overview-details kui-tab-bar .tab-bar ol li {
 .feed-entry .feed-entry-details .entry-title {
     flex-direction: column;
 }
-
 .feed-entry .feed-entry-details .entry-title .icon-arrow-right-long {
-    padding-left: 12px;
+    padding-left: 15px;
 }
-
 .feed-entry .feed-entry-details .entry-title .icon-arrow-right-long:before {
     content: "\f063";
 }
+
+/* shows the feed icons */
+.feed-entry .feed-entry-details .icon-trip,
+.feed-entry .feed-entry-details .icon-event {
+    display: inline-block !important;
+}
+
+.feed-entry .feed-entry-details .icon-trip .icon,
+.feed-entry .feed-entry-details .icon-event .icon {
+    color: var(--color-primary-color);
+    font-size: calc(var(--height-header) * .30) !important;
+    opacity: 1;
+    margin-top: 2px;
+}
+
+/* customize trip feed icons */
+.icon-trip-start .icon {
+    color: green !important;
+}
+.icon-trip-start .icon:before {
+    content: "\f3c5"
+    
+}
+.icon-trip-end .icon {
+    color: red !important;
+}
+.icon-trip-end .icon:before {
+    content: "\f60e"
+}
+
+.icon-trip-parked .icon {
+    color: gray !important;
+}
+.icon-trip-parked .icon:before {
+    content: "\f540"
+}
+
+/* you can customize event & alert icons by targeting their classes and overriding the icon, see below */
+.icon-event-assetactivationevent-activate .icon:before {
+    content: "\f124"
+}
+.icon-event-assetactivationevent-deactivate .icon:before {
+    content: "\f011"
+}
+
+
+
+
+
+
 
 
 /* FONT-AWESOME ICON SUBSTITUTION */
