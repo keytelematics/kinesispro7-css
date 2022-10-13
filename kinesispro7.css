@@ -128,6 +128,38 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 0 0.65rem;
 }
 
+/* FEEDS */
+
+.feed-entry .feed-entry-details .accent {
+    font-family: Montserrat;
+    font-size: 105%;
+}
+
+.feed-entry #entry-title, .feed-entry .entry-title {
+    padding-bottom: 8px;
+}
+
+.feed-entry .feed-entry-details .entry-title {
+    flex-direction: column;
+}
+
+.feed-entry .feed-entry-details .entry-title .icon-arrow-right-long:before {
+    content: "\f175";
+}
+
+/* changes the trip feed caption into a vertical layout */
+.feed-entry .feed-entry-details .entry-title {
+    flex-direction: column;
+}
+
+.feed-entry .feed-entry-details .entry-title .icon-arrow-right-long {
+    padding-left: 12px;
+}
+
+.feed-entry .feed-entry-details .entry-title .icon-arrow-right-long:before {
+    content: "\f063";
+}
+
 
 /* FONT-AWESOME ICON SUBSTITUTION */
 
