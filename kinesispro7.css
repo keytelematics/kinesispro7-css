@@ -23,7 +23,7 @@ kui-tab-bar .tab-bar ol li
     color: var(--color-grey-text);
 }
 
-/* Hover bg states */
+/* Hover bg + text colour states */
 kui-tab-bar .tab-bar ol li.hover:hover,
 a.main-nav-link.nav-link.action:hover
 {
@@ -31,7 +31,8 @@ a.main-nav-link.nav-link.action:hover
 }
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
-a.main-nav-link.nav-link.action:hover .nav-link-text
+a.main-nav-link.nav-link.action:hover .nav-link-text,
+.app-menu .app-menu-content a.main-nav-link.nav-link.action:hover .nav-link-text,
 {
     color: var(--content-font-color) !important;
 }
