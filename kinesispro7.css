@@ -337,6 +337,32 @@ key-overview-details kui-tab-bar .tab-bar ol li {
 
 /* CUSTOM ICON SUBSTITUTION */
 
+@font-face {
+    font-family: 'kinesispro7-minimap';
+    src: url("https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.eot");
+    src: url("https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.eot?#iefix") format('embedded-opentype'),
+         url("https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.woff") format('woff'),
+         url("https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.ttf") format('truetype'),
+         url("https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-trip-start .icon:before {
+    font-family: 'kinesispro7-minimap';
+    content: "\e900";
+    color: #00BE73;
+    font-size: 1.2em;
+}
+
+.icon-trip-end .icon:before {
+    font-family: 'kinesispro7-minimap';
+    content: "\e901";
+    font-size: 1.2em;
+}
+
+
+
 /*
 
 @font-face {
