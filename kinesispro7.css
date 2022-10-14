@@ -5,20 +5,38 @@
 */
 
 :root {
-   --color-grey-text: #60747C;
-   --color-telematics-blue: #00A7E1;
-   --color-pale-blue-bg: #F5FCFE;
-   --color-border-grey: #DAE3E7;
-   --montserrat-weight: 500;
+    --color-grey-text: #60747C;
+    --color-telematics-blue: #00A7E1;
+    --color-pale-blue-bg: #F5FCFE;
+    --color-pale-blue-bg-hover: #FBFEFE;
+    --color-border-grey: #DAE3E7;
+    --montserrat-weight: 500;
 }
 
 /* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
 .listing > div > div p,
 .listing .listing__stat,
-.details-overview__summary .small
+.details-overview__summary .small,
+kui-tab-bar .tab-bar ol li
 {
-   color: var(--color-grey-text);
+    color: var(--color-grey-text);
+}
+
+/* Hover bg states */
+kui-tab-bar .tab-bar ol li.hover:hover,
+a.main-nav-link.nav-link.action:hover
+{
+    background-color: var(--color-pale-blue-bg-hover);
+}
+kui-tab-bar .tab-bar ol li.hover:hover .nav-link-text
+a.main-nav-link.nav-link.action:hover,
+a.main-nav-link.nav-link.action.active:hover
+{
+    color: var(--content-font-color);
+}
+kui-tab-bar .tab-bar ol li.active:hover {
+    background-color: #daf0f6;
 }
 
 /* Border colours */
@@ -30,7 +48,7 @@ kui-tab-bar .tab-bar, kui-tab-bar .tab-bar *,
 .app-content *,
 .feed-entry
 {
-   border-color: var(--color-border-grey);
+    border-color: var(--color-border-grey);
 }
 div:not(#tabs) > .tabs-header > .content-header {
     border-top: 0;
@@ -44,15 +62,15 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
 
 /* Asset list search Go btn */
 .content-card-block .input-group .btn-secondary {
-   background: var(--color-telematics-blue);
-   color: #fff;
-   border: 0;
+    background: var(--color-telematics-blue);
+    color: #fff;
+    border: 0;
 }
 /* Asset list search Close btn */
 .content-card-block .input-group .btn-danger {
-   background: #f7f7f7;
-   color: var(--color-grey-text);
-   border: 0;
+    background: #f7f7f7;
+    color: var(--color-grey-text);
+    border: 0;
 }
 
 
@@ -110,11 +128,11 @@ kui-menu-brand .brand img {
 }
 
 a.main-nav-link.nav-link.action.hover.active {
-  background: #F5FCFE !important;
+    background: #F5FCFE !important;
 }
 
 a.main-nav-link.nav-link.action:hover {
-  background: #FBFEFE !important;
+    background: #FBFEFE !important;
 }
 
 .main-nav-link.active .nav-link-text {
@@ -155,11 +173,11 @@ key-overview-details kui-content-header .content-header .mobile-nav {
 }
 
 kui-tab-bar .tab-bar {
-   font-weight: var(--montserrat-weight);
+    font-weight: var(--montserrat-weight);
 }
 
 kui-tab-bar .tab-bar ol li.active, kui-tab-bar .tab-bar ol li.active:hover {
-  background: #F5FCFE !important;
+    background: #F5FCFE !important;
 }
 
 kui-tab-bar .tab-bar ol li kui-icon i {
@@ -223,6 +241,10 @@ key-overview-details kui-tab-bar .tab-bar ol li {
  
 
 /* FEEDS */
+
+.feed-entry:hover {
+    background-color: var(--color-pale-blue-bg-hover);
+}
 
 .feed-entry .feed-entry-details .accent {
     font-family: Montserrat;
