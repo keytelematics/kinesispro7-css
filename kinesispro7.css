@@ -29,11 +29,9 @@ a.main-nav-link.nav-link.action:hover
 {
     background: var(--color-pale-blue-bg-hover);
 }
-kui-tab-bar .tab-bar ol li:hover,
-kui-tab-bar .tab-bar ol li.hover:hover .nav-link-text,
-a.main-nav-link.nav-link.action.active:hover
-a.main-nav-link.nav-link.action:hover,
-.app-menu .app-menu-content a.main-nav-link.nav-link.action:hover .nav-link-text,
+.nav-link:hover .nav-link-text, 
+.tab-bar ol li:hover .text-truncate, 
+a.main-nav-link.nav-link.action:hover .nav-link-text
 {
     color: var(--content-font-color) !important;
 }
@@ -175,7 +173,10 @@ kui-tab-bar .tab-bar {
     font-weight: var(--montserrat-weight);
 }
 
-kui-tab-bar .tab-bar ol li.active, kui-tab-bar .tab-bar ol li.active:hover {
+kui-tab-bar .tab-bar ol li.active {
+    background: var(--color-pale-blue-bg) !important;
+}
+kui-tab-bar .tab-bar ol li.active:hover {
     background: #daf0f6 !important;
 }
 
