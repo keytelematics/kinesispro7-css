@@ -9,15 +9,18 @@
    --color-telematics-blue: #00A7E1;
    --color-pale-blue-bg: #F5FCFE;
    --color-border-grey: #DAE3E7;
+   --montserrat-weight: 500;
 }
 
-/* Lighter grey text */
+/* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
 .listing > div > div p,
 .listing .listing__stat
 {
    color: var(--color-grey-text);
 }
+
+/
 
 /* Asset list search Go btn */
 .content-card-block .input-group .btn-secondary {
@@ -129,6 +132,14 @@ a.main-nav-link.nav-link.action:hover {
 /* shows the left-chevron on the header even in desktop mode */
 key-overview-details kui-content-header .content-header .mobile-nav {
     display: block;
+}
+
+kui-tab-bar .tab-bar {
+   font-weight: var(--montserrat-weight);
+}
+
+kui-tab-bar .tab-bar ol li.active, kui-tab-bar .tab-bar ol li.active:hover {
+  background: #F5FCFE !important;
 }
 
 kui-tab-bar .tab-bar ol li kui-icon i {
