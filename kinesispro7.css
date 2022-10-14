@@ -17,6 +17,19 @@
    color: var(--color-grey-text);
 }
 
+/* Asset list search Go btn */
+.content-card-block .input-group .btn-secondary {
+   background: var(--color-telematics-blue);
+   color: #fff;
+   border: 0;
+}
+/* Asset list search Close btn */
+.content-card-block .input-group .btn-danger {
+   background: #f7f7f7;
+   color: var(--color-grey-text);
+   border: 0;
+}
+
 
 
 
