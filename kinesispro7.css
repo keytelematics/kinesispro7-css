@@ -15,7 +15,8 @@
 /* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
 .listing > div > div p,
-.listing .listing__stat
+.listing .listing__stat,
+.details-overview__summary .small
 {
    color: var(--color-grey-text);
 }
@@ -179,7 +180,7 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:first-
     text-align: left;
     text-transform: uppercase;
     font-weight: normal;
-    color: #999;
+    color: var(--color-grey-text);
 }
 
 key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child strong {
