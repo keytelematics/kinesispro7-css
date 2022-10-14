@@ -4,10 +4,12 @@
 --content-font-color: #161616;
 */
 
---color-grey-text: #60747C;
---color-telematics-blue: #00A7E1;
---color-pale-blue-bg: #F5FCFE;
---color-border-grey: #DAE3E7;
+:root {
+   --color-grey-text: #60747C;
+   --color-telematics-blue: #00A7E1;
+   --color-pale-blue-bg: #F5FCFE;
+   --color-border-grey: #DAE3E7;
+}
 
 /* Lighter grey text */
 .nav-link:not(.active) .nav-link-text,
