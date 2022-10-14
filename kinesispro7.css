@@ -108,6 +108,22 @@ a.main-nav-link.nav-link.action:hover {
 
 /** Overview details box */
 
+/* change the search icon to a chevron and change side */
+.map-button.map-button-assets {
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+.map-button.map-button-assets i {
+    margin-right: 0;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+.map-button.map-button-assets i:before {
+    content: "\f054"
+}
+
+
 /* shows the left-chevron on the header even in desktop mode */
 key-overview-details kui-content-header .content-header .mobile-nav {
     display: block;
