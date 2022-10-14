@@ -365,6 +365,14 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     font-size: 1.2em;
 }
 
+.icon-trip-parked .icon:before {
+    font-family: 'kinesispro7-minimap';
+    content: "\e903";
+    font-size: 1.2em;
+}
+
+/* Idling icon? */
+
 
 
 /*
