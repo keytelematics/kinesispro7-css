@@ -32,7 +32,7 @@ a.main-nav-link.nav-link.action:hover
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
 a.main-nav-link.nav-link.action:hover .nav-link-text,
-.app-menu .app-menu-content a.main-nav-link.nav-link.action:hover .nav-link-text,
+.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text
 {
     color: var(--content-font-color) !important;
 }
