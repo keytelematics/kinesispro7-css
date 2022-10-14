@@ -164,6 +164,15 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 0 0.65rem;
 }
 
+/* make the color bar visible in the asset list and map */
+.key-listing-color-bar {
+    display: block !important;
+}
+.map-marker-color-bar {
+    display: inline-block !important;
+}
+ 
+
 /* FEEDS */
 
 .feed-entry .feed-entry-details .accent {
