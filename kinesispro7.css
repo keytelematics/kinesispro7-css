@@ -27,10 +27,11 @@ kui-tab-bar .tab-bar ol li
 kui-tab-bar .tab-bar ol li.hover:hover,
 a.main-nav-link.nav-link.action:hover
 {
-    background-color: var(--color-pale-blue-bg-hover);
+    background: var(--color-pale-blue-bg-hover);
 }
-kui-tab-bar .tab-bar ol li.hover:hover .nav-link-text
+kui-tab-bar .tab-bar ol li.hover:hover .nav-link-text,
 a.main-nav-link.nav-link.action:hover,
+a.main-nav-link.nav-link.action:hover .nav-link-text,
 a.main-nav-link.nav-link.action.active:hover
 {
     color: var(--content-font-color);
