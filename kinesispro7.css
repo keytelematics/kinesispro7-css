@@ -29,15 +29,13 @@ a.main-nav-link.nav-link.action:hover
 {
     background: var(--color-pale-blue-bg-hover);
 }
+kui-tab-bar .tab-bar ol li:hover,
 kui-tab-bar .tab-bar ol li.hover:hover .nav-link-text,
-a.main-nav-link.nav-link.action:hover,
-a.main-nav-link.nav-link.action:hover .nav-link-text,
 a.main-nav-link.nav-link.action.active:hover
+a.main-nav-link.nav-link.action:hover,
+.app-menu .app-menu-content a.main-nav-link.nav-link.action:hover .nav-link-text,
 {
-    color: var(--content-font-color);
-}
-kui-tab-bar .tab-bar ol li.active:hover {
-    background-color: #daf0f6;
+    color: var(--content-font-color) !important;
 }
 
 /* Border colours */
@@ -178,7 +176,7 @@ kui-tab-bar .tab-bar {
 }
 
 kui-tab-bar .tab-bar ol li.active, kui-tab-bar .tab-bar ol li.active:hover {
-    background: #F5FCFE !important;
+    background: #daf0f6 !important;
 }
 
 kui-tab-bar .tab-bar ol li kui-icon i {
