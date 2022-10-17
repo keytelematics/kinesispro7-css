@@ -8,7 +8,7 @@
     --color-grey-text: #60747C;
     --color-telematics-blue: #00A7E1;
     --color-pale-blue-bg: #F5FCFE;
-    --color-pale-blue-bg-hover: #FBFEFE;
+    --color-pale-blue-bg-hover: #f3f6f6;
     --color-border-grey: #DAE3E7;
     --montserrat-weight: 500;
 }
@@ -71,7 +71,13 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
     border: 0;
 }
 
+/* Float panel drop shadow */
+kui-side-panel.left.shadow.position-absolute {
 
+}
+.leaflet-bar, key-map-toolbar {
+    box-shadow: 0 5px 8px 0 rgb(0 42 69 / 18%) !important;
+}
 
 
 /* --- */
