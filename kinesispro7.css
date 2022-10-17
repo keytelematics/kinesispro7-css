@@ -13,12 +13,32 @@
     --montserrat-weight: 500;
 }
 
+/* Open Sans for sub text */
+p,
+p a,
+.details-overview__summary .small,
+#entry-description,
+.entry-description,
+key-listing-description,
+key-listing-stat,
+key-details-overview-summary,
+key-feed-entry-info,
+{
+    font-family: "Open Sans", Montserrat, sans-serif;
+}
+/* reset to primary font */
+key-details-overview-summary h3 {
+    font-family: Montserrat, "Open Sans", sans-serif;
+}
+
 /* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
 .listing > div > div p,
 .listing .listing__stat,
 .details-overview__summary .small,
-kui-tab-bar .tab-bar ol li
+kui-tab-bar .tab-bar ol li,
+#entry-description,
+.entry-description
 {
     color: var(--color-grey-text);
 }
@@ -73,10 +93,13 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
 
 /* Float panel drop shadow */
 kui-side-panel.left.shadow.position-absolute {
-
+    Box-shadow: 0 5px 8px 0 rgb(0 42 69 / 18%);
 }
-.leaflet-bar, key-map-toolbar {
+.leaflet-bar {
     box-shadow: 0 5px 8px 0 rgb(0 42 69 / 18%) !important;
+}
+key-map-toolbar {
+    filter: drop-shadow(0 5px 8px rgba(0,42,69,18%));
 }
 
 
