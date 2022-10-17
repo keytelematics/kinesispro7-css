@@ -9,7 +9,8 @@
     --color-telematics-blue: #00A7E1;
     --color-pale-blue-bg: #F5FCFE;
     --color-pale-blue-bg-hover: #f3f6f6;
-    --color-border-grey: #DAE3E7;
+    --color-tab-hover: #FBFEFE;
+    --color-border-grey: #f3f6f6;
     --montserrat-weight: 500;
 }
 
@@ -22,7 +23,7 @@ p a,
 key-listing-description,
 key-listing-stat,
 key-details-overview-summary,
-key-feed-entry-info,
+key-feed-entry-info
 {
     font-family: "Open Sans", Montserrat, sans-serif;
 }
@@ -44,10 +45,11 @@ kui-tab-bar .tab-bar ol li,
 }
 
 /* Hover bg + text colour states */
-kui-tab-bar .tab-bar ol li.hover:hover,
-a.main-nav-link.nav-link.action:hover
-{
+a.main-nav-link.nav-link.action:hover {
     background: var(--color-pale-blue-bg-hover);
+}
+kui-tab-bar .tab-bar ol li.hover:hover {
+    background: var(--color-tab-hover);
 }
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
@@ -76,6 +78,9 @@ div:not(#tabs) > .tabs-header > .content-header {
 }
 kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
     border-right: 1px solid var(--color-border-grey);
+}
+.overview-details-footer .content-header {
+    border-bottom: 0;
 }
 
 /* Asset list search Go btn */
