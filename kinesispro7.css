@@ -155,6 +155,23 @@ key-listing-stat > span.text-danger::after {
     margin-right: 1em;
 }
 
+/* Animate map marker on hover */
+.position-marker svg {
+    transform-origin: bottom center;
+    transition: all 0.15s cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+.position-marker:hover svg {
+    transform: scale(1.2);
+}
+/* Animate map label on hover */
+.map-marker-color-bar,
+.leaflet-tooltip
+{
+    transition: all 0.15s cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+.position-marker:hover + .leaflet-tooltip {
+    opacity: 1;
+}
 
 
 
