@@ -7,11 +7,12 @@
 :root {
     --color-grey-text: #60747C;
     --color-telematics-blue: #00A7E1;
+    --color-telematics-blue-darker: #0075A9;
     --color-pale-blue-bg: #F5FCFE;
     --color-pale-blue-bg-hover: #FBFEFE;
-    --color-tab-hover: #f5f7f7;
-    --color-tab-hover--lighter: #f8fafa;
-    --color-tab-hover-darker: #e3e7e7;
+    --color-bg-hover: #f5f7f7;
+    --color-bg-hover--lighter: #f8fafa;
+    --color-bg-hover-darker: #e3e7e7;
     --color-border-grey: #f3f6f6;
     --montserrat-weight: 500;
 }
@@ -60,10 +61,10 @@ a.main-nav-link.nav-link.action:hover,
 kui-tab-bar .tab-bar ol li.hover:hover,
 .map-button:hover
 {
-    background: var(--color-tab-hover) !important;
+    background: var(--color-bg-hover) !important;
 }
 .feed-entry:hover {
-    background: var(--color-tab-hover--lighter);
+    background: var(--color-bg-hover--lighter);
 }
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
@@ -110,6 +111,10 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
     color: #fff;
     border: 0;
 }
+.content-card-block .input-group .btn-secondary:hover {
+    opacity: unset;
+    background: var(--color-telematics-blue-darker);
+}
 .content-card-block .input-group .btn-secondary kui-icon {
     color: #fff;
 }
@@ -122,7 +127,7 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
 .content-card-block .input-group .btn-danger:hover,
 .content-card-block .input-group .btn-danger:focus,
 .content-card-block .input-group .btn-danger:active {
-    background: var(--color-tab-hover-darker);
+    background: var(--color-bg-hover-darker);
 }
 
 /* Float panel drop shadow */
@@ -183,6 +188,13 @@ key-listing-stat > span.text-danger::after {
     opacity: 1 !important;
 }
 
+/* Utility icons (search, filter etc) */
+kui-content-header .content-header kui-icon:hover i.icon,
+kui-content-header .content-header kui-icon:focus i.icon
+kui-content-header .content-header kui-icon:active i.icon
+{
+    color: var(--content-font-color);
+}
 /* Alert icons etc */
 key-listing kui-icon {
     color: var(--color-telematics-blue);
@@ -198,8 +210,12 @@ key-listing kui-icon {
     border-right: 1px solid var(--color-primary-color) !important;
 }
 
+/* Remove slight x scrolling issue */
+.details-container {
+    overflow-x: hidden !important;
+}
 
-/* Scroll bars */
+/* Scroll bars styles */
 ::-webkit-scrollbar-thumb {
     border-radius: 12px;
 }
@@ -231,6 +247,11 @@ kui-content-header .content-header .title,
     background: none;
     box-shadow: 0 2px 6px 0 rgb(0 70 103 / 7%);
     font-size: 11px;
+}
+.user-profile:hover,
+.user-profile:focus,
+.user-profile:active {
+    background: var(--color-bg-hover);
 }
 
 .menu-collapsed .user-profile {
@@ -321,7 +342,7 @@ kui-tab-bar .tab-bar ol li.active {
 }
 kui-tab-bar .tab-bar ol li.active:hover {
     /* background: #daf0f6 !important; */
-    background: var(--color-tab-hover) !important;
+    background: var(--color-bg-hover) !important;
 }
 
 kui-tab-bar .tab-bar ol li kui-icon i {
