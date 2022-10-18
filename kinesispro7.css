@@ -174,8 +174,18 @@ key-listing-stat > span.text-danger::after {
 }
 
 /* Alert icons */
-kui-icon {
+key-listing kui-icon {
     color: var(--color-telematics-blue);
+    transform: scale(0.9);
+}
+
+/* Scroll bars */
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.3);
+    background-clip: padding-box;
 }
 
 
@@ -438,7 +448,7 @@ key-overview-details kui-tab-bar .tab-bar ol li {
 /* FONT-AWESOME ICON SUBSTITUTION */
 
 .main-nav kui-icon {
-    color: #009dd1;
+    color: var(--color-telematics-blue);
 }
 
 /* Profile */
@@ -607,12 +617,3 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     font-size: 1.2em;
 }
 */
-
-/* Scroll bars */
-::-webkit-scrollbar-thumb {
-    border-radius: 12px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(0,0,0,0.3);
-    background-clip: padding-box;
-}
