@@ -46,7 +46,6 @@ key-details-overview-summary h3 {
 /* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
 key-listing-description,
-.listing > div > div p,
 .listing .listing__stat,
 .details-overview__summary .small,
 kui-tab-bar .tab-bar ol li,
