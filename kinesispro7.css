@@ -62,8 +62,10 @@ kui-tab-bar .tab-bar ol li.hover:hover
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
 a.main-nav-link.nav-link.action:hover .nav-link-text,
-.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text
+.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
+.overview-details-footer .action.hover:hover
 {
+    opacity: unset;
     color: var(--content-font-color) !important;
 }
 
