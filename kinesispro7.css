@@ -108,11 +108,19 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
     color: #fff;
     border: 0;
 }
+.content-card-block .input-group .btn-secondary kui-icon {
+    color: #fff;
+}
 /* Asset list search Close btn */
 .content-card-block .input-group .btn-danger {
     background: #f7f7f7;
     color: var(--color-grey-text);
     border: 0;
+}
+.content-card-block .input-group .btn-danger:hover,
+.content-card-block .input-group .btn-danger:focus,
+.content-card-block .input-group .btn-danger:active {
+    background: var(--color-tab-hover);
 }
 
 /* Float panel drop shadow */
@@ -173,7 +181,7 @@ key-listing-stat > span.text-danger::after {
     opacity: 1 !important;
 }
 
-/* Alert icons */
+/* Alert icons etc */
 key-listing kui-icon {
     color: var(--color-telematics-blue);
     transform: scale(0.9);
