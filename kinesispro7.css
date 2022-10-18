@@ -9,7 +9,8 @@
     --color-telematics-blue: #00A7E1;
     --color-pale-blue-bg: #F5FCFE;
     --color-pale-blue-bg-hover: #FBFEFE;
-    --color-tab-hover: #f3f6f6;
+    --color-tab-hover: #f5f7f7;
+    --color-tab-hover--lighter: #f8fafa;
     --color-border-grey: #f3f6f6;
     --montserrat-weight: 500;
 }
@@ -54,10 +55,12 @@ kui-content-header-actions
 a.main-nav-link.nav-link.action:hover,
 .listing--active,
 .listing--hover:hover:not(.listing--active),
-.feed-entry:hover,
 kui-tab-bar .tab-bar ol li.hover:hover 
 {
     background: var(--color-tab-hover);
+}
+.feed-entry:hover {
+    background: var(--color-tab-hover--lighter);
 }
 .nav-link:hover .nav-link-text, 
 .tab-bar ol li:hover .text-truncate, 
