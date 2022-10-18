@@ -170,7 +170,7 @@ key-listing-stat > span.text-danger::after {
     transition: all 0.15s cubic-bezier(0.280, 0.840, 0.420, 1);
 }
 .position-marker:hover + .leaflet-tooltip {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 
