@@ -535,4 +535,13 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     content: "\e";
     font-size: 1.2em;
 }
- */
+*/
+
+/* Scroll bars */
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0,0,0,0.3);
+    background-clip: padding-box;
+}
