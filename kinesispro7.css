@@ -53,12 +53,10 @@ kui-content-header-actions
 /* Hover bg + text colour states */
 a.main-nav-link.nav-link.action:hover,
 .listing--active,
-.listing--hover:hover:not(.listing--active)
+.listing--hover:hover:not(.listing--active),
+.feed-entry:hover,
+kui-tab-bar .tab-bar ol li.hover:hover 
 {
-    /* background: var(--color-pale-blue-bg-hover); */
-    background: var(--color-tab-hover);
-}
-kui-tab-bar .tab-bar ol li.hover:hover {
     background: var(--color-tab-hover);
 }
 .nav-link:hover .nav-link-text, 
@@ -320,10 +318,6 @@ key-overview-details kui-tab-bar .tab-bar ol li {
  
 
 /* FEEDS */
-
-.feed-entry:hover {
-    background-color: var(--color-pale-blue-bg-hover);
-}
 
 .feed-entry .feed-entry-details .accent {
     font-family: Montserrat;
