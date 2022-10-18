@@ -6,6 +6,7 @@
 
 :root {
     --color-grey-text: #60747C;
+    --color-grey-text-darker: #4f6168;
     --color-telematics-blue: #00A7E1;
     --color-telematics-blue-darker: #0075A9;
     --color-pale-blue-bg: #F5FCFE;
@@ -26,7 +27,8 @@ p a,
 key-listing-description,
 key-listing-stat,
 key-details-overview-summary,
-key-feed-entry-info
+key-feed-entry-info,
+.item-list label
 {
     font-family: "Open Sans", Montserrat, sans-serif;
 }
@@ -43,6 +45,7 @@ key-details-overview-summary h3 {
 
 /* Lighter grey text for various */
 .nav-link:not(.active) .nav-link-text,
+key-listing-description,
 .listing > div > div p,
 .listing .listing__stat,
 .details-overview__summary .small,
@@ -76,6 +79,10 @@ a.main-nav-link.nav-link.action:hover .nav-link-text,
 {
     opacity: unset;
     color: var(--content-font-color) !important;
+}
+
+key-listing:hover key-listing-description {
+    color: var(--color-grey-text-darker);
 }
 
 /* Border colours */
@@ -209,6 +216,10 @@ key-listing kui-icon {
 .input-group kui-select:not(:last-child) .dropdown .dropdown-toggle:focus {
     border-right: 1px solid var(--color-primary-color) !important;
 }
+
+
+
+
 
 /* Remove slight x scrolling issue */
 .details-container {
