@@ -51,11 +51,12 @@ kui-content-header-actions
     color: var(--color-grey-text);
 }
 
-/* Hover bg + text colour states */
+/* Hover bg + text colour states */ /* TODO: also focus states */
 a.main-nav-link.nav-link.action:hover,
 .listing--active,
 .listing--hover:hover:not(.listing--active),
-kui-tab-bar .tab-bar ol li.hover:hover 
+kui-tab-bar .tab-bar ol li.hover:hover,
+.map-button-assets:hover
 {
     background: var(--color-tab-hover);
 }
@@ -161,6 +162,12 @@ key-listing-stat > span.text-danger::after {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat;
+}
+
+kui-content-header .content-header .title,
+.map-button-assets
+{
+    font-weight: 500;
 }
 
 /* restyle the company name */
