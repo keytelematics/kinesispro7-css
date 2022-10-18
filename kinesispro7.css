@@ -136,6 +136,15 @@ key-map-toolbar {
     margin-right: 4px;
 }
 
+/* Show icon (not red text) for highlighted stale Time Ago text */
+key-listing-stat .text-danger {
+    color: var(--color-grey-text) !important;
+}
+key-listing-stat > span.text-danger::after {
+    content: " ⚠️";
+    margin-right: 1em;
+}
+
 
 
 
