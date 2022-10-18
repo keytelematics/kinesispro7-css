@@ -205,9 +205,9 @@ a.main-nav-link.nav-link.action.hover.active {
     background: #F5FCFE !important;
 }
 
-a.main-nav-link.nav-link.action:hover {
+/* a.main-nav-link.nav-link.action:hover {
     background: #FBFEFE !important;
-}
+} */
 
 .main-nav-link.active .nav-link-text {
 
@@ -254,7 +254,8 @@ kui-tab-bar .tab-bar ol li.active {
     background: var(--color-pale-blue-bg) !important;
 }
 kui-tab-bar .tab-bar ol li.active:hover {
-    background: #daf0f6 !important;
+    /* background: #daf0f6 !important; */
+    background: var(--color-tab-hover) !important;
 }
 
 kui-tab-bar .tab-bar ol li kui-icon i {
