@@ -173,6 +173,11 @@ key-listing-stat > span.text-danger::after {
     opacity: 1 !important;
 }
 
+/* Alert icons */
+kui-icon {
+    color: var(--color-telematics-blue);
+}
+
 
 
 /* --- */
