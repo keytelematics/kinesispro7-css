@@ -55,7 +55,7 @@ kui-content-header-actions
 {
     color: var(--color-grey-text);
 }
-key-listing-description * {
+key-listing-description .muted-less {
     opacity: unset !important;
 }
 
