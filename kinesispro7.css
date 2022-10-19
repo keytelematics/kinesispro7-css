@@ -55,6 +55,9 @@ kui-content-header-actions
 {
     color: var(--color-grey-text);
 }
+key-listing-description * {
+    opacity: unset !important;
+}
 
 /* Hover bg + text colour states */ /* TODO: also focus states */
 a.main-nav-link.nav-link.action:hover,
@@ -415,6 +418,19 @@ kui-tab-bar .tab-bar ol li kui-icon {
 }
 key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 0 0.55rem;
+}
+
+/* Adjust small listing RHS icon (eg video icon) */
+key-listing-description {
+    width: calc(100% - 30px);
+    float: left;
+}
+key-listing kui-icon {
+    transform: none;
+}
+key-listing kui-icon i.icon {
+    font-size: 15px;
+    opacity: unset !important;
 }
 
 /* White bg for footer utility btns */
