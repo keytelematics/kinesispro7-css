@@ -414,7 +414,12 @@ kui-tab-bar .tab-bar ol li kui-icon {
     display: inline-block !important;
 }
 key-overview-details kui-tab-bar .tab-bar ol li {
-    padding: 0 0.5rem;
+    padding: 0 0.55rem;
+}
+
+/* White bg for footer utility btns */
+.overview-details-footer .content-header {
+    background-color: #fff !important;
 }
 
 /* make the color bar visible in the asset list and map */
