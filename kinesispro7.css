@@ -429,7 +429,7 @@ key-listing kui-icon {
     transform: none;
 }
 key-listing kui-icon i.icon {
-    font-size: 15px;
+    font-size: 14px !important;
     opacity: unset !important;
 }
 
