@@ -441,6 +441,7 @@ key-listing kui-icon i.icon {
 /* make the color bar visible in the asset list and map */
 .key-listing-color-bar {
     display: block !important;
+    min-height: 43.5px;
 }
 .map-marker-color-bar {
     display: inline-block !important;
