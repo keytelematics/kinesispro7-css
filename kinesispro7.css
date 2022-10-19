@@ -232,6 +232,16 @@ key-listing kui-icon {
 
 
 
+/* Allow grey info text  to run full width of panel in Asset Details > Trips */ 
+feed-entry-info {
+    margin-left: 0 !important;
+}
+key-trip-feed-item #entry-description {
+    width: calc(100% + 105px);
+}
+
+
+
 
 
 /* Remove slight x scrolling issue */
