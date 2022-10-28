@@ -126,8 +126,8 @@ kui-tab-bar .tab-bar ol li kui-icon i {
 }
 /* ...and make the tabs wrap */
 kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
-    border-top: 1px solid var(--color-border-grey);
-    border-bottom: 1px solid var(--color-border-grey);
+    /* border-top: 1px solid var(--color-border-grey);
+    border-bottom: 1px solid var(--color-border-grey); */
     height: calc(100% + 1px);
     overflow: hidden;
 }
@@ -136,6 +136,7 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol {
     justify-content: center;
     overflow: hidden;
     width: 100%;
+    height: calc(100% - 1px);
 }
 key-overview-details kui-tab-bar {
     width: 100%;
