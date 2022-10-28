@@ -130,6 +130,8 @@ kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
     border-bottom: 1px solid var(--color-border-grey); */
     height: calc(100% + 1px);
     overflow: hidden;
+}
+kui-content-header .content-header .tab-mount {
     min-width: 100%;
 }
 kui-content-header .content-header .tab-mount kui-tab-bar ol {
@@ -139,8 +141,7 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol {
     width: 100%;
     height: calc(100% - 1px);
 }
-key-overview-details kui-tab-bar,
-kui-content-header .content-header .tab-mount {
+key-overview-details kui-tab-bar {
     width: 100% !important;
 }
 key-overview-details kui-tab-bar .tab-bar ol:after {
