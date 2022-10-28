@@ -140,6 +140,8 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol {
     overflow: hidden;
     width: 100%;
     height: calc(100% - 1px);
+    position: relative;
+    left: -1px;
 }
 key-overview-details kui-tab-bar {
     width: 100% !important;
