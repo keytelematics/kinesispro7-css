@@ -119,10 +119,10 @@ kui-side-panel {
     width: 430px !important;
 }
 kui-tab-bar .tab-bar ol li {
-    /* font-size: 12.5px; */
+    font-size: 12.5px;
 }
 kui-tab-bar .tab-bar ol li kui-icon i {
-    /* padding: 0.2rem; */
+    padding: 0.2rem;
 }
 /* ...and make the tabs wrap */
 kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
