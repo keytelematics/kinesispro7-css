@@ -175,8 +175,9 @@ key-overview-details tab-bar .text-truncate {
     text-overflow: unset;
 }
 @media (max-width: 767px) {
-    key-overview-details + key-details-overview-card > div kui-content-header .content-header {
-        display: inline-block;
+    /* Hide gap – OK to hide (star) */
+    key-overview-details #tabs kui-content-header .content-header .icon-mount {
+        display: none;
     }
     /* remove truncation fade */
     .tab-mount:after {
