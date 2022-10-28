@@ -115,7 +115,7 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
 }
 
 /* Float panel – fit tab text! */
-kui-side-panel {
+key-status-overview kui-side-panel {
     width: 430px !important;
 }
 kui-tab-bar .tab-bar ol li {
