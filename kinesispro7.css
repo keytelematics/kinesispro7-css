@@ -131,9 +131,6 @@ kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
     height: calc(100% + 1px);
     overflow: hidden;
 }
-/* kui-content-header .content-header .tab-mount {
-    min-width: 100%;
-} */
 kui-content-header .content-header .tab-mount kui-tab-bar ol {
     flex-wrap: wrap;
     justify-content: center;
@@ -269,6 +266,10 @@ kui-content-header .content-header kui-icon:active i.icon
 key-listing kui-icon {
     color: var(--color-telematics-blue);
     transform: scale(0.9);
+}
+/* Make sure all main left nav icons and their text labels line up */
+.main-nav kui-icon i {
+    min-width: 25px;
 }
 
 /* Asset name dropdown focus border */
