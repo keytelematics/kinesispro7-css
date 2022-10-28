@@ -143,6 +143,7 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol {
 }
 key-overview-details kui-tab-bar {
     width: 100% !important;
+    overflow: hidden !important;
 }
 key-overview-details kui-tab-bar .tab-bar ol:after {
     content: "";
@@ -151,6 +152,11 @@ key-overview-details kui-tab-bar .tab-bar ol:after {
     height: 1px;
     position: absolute;
     top: 39px;
+}
+@media (max-width: 767px) {
+    key-overview-details kui-tab-bar .tab-bar ol:after {
+        top: 39px;
+    }
 }
 key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 10px;
@@ -163,6 +169,23 @@ key-overview-details kui-tab-bar .tab-bar ol li:last-of-type {
 }
 kui-content-header .content-header {
     height: auto;
+    
+}
+key-overview-details tab-bar .text-truncate {
+    text-overflow: unset;
+}
+@media (max-width: 767px) {
+    key-overview-details + key-details-overview-card > div kui-content-header .content-header {
+        display: inline-block;
+    }
+    /* remove truncation fade */
+    .tab-mount:after {
+        box-shadow: none;
+    }
+    kui-tab-bar {
+        /* Remove weird grey line (partial auto scrollbar?) */
+        overflow: hidden;
+    }
 }
 
 /* Asset list search Go btn */
