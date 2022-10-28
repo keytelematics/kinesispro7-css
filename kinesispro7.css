@@ -131,9 +131,9 @@ kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
     height: calc(100% + 1px);
     overflow: hidden;
 }
-kui-content-header .content-header .tab-mount {
+/* kui-content-header .content-header .tab-mount {
     min-width: 100%;
-}
+} */
 kui-content-header .content-header .tab-mount kui-tab-bar ol {
     flex-wrap: wrap;
     justify-content: center;
@@ -157,6 +157,9 @@ key-overview-details kui-tab-bar .tab-bar ol li {
     border-left: 1px solid var(--color-border-grey) !important;
     border-right: 1px solid var(--color-border-grey) !important;
     margin-right: -1px;
+}
+key-overview-details kui-tab-bar .tab-bar ol li:last-of-type {
+    margin-right: 0;
 }
 kui-content-header .content-header {
     height: auto;
