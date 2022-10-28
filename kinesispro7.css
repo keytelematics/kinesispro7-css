@@ -125,12 +125,19 @@ kui-tab-bar .tab-bar ol li kui-icon i {
     /* padding: 0.2rem; */
 }
 /* ...and make the tabs wrap */
-key-overview-details kui-tab-bar .tab-bar ol {
-    flex-wrap: wrap;
-    justify-content: center;
+kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
     border-top: 1px solid red;
     border-bottom: 1px solid red;
+    height: calc(100% + 1px);
     overflow: hidden;
+}
+kui-content-header .content-header .tab-mount kui-tab-bar ol {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+key-overview-details kui-tab-bar {
     width: 100%;
 }
 key-overview-details kui-tab-bar .tab-bar ol:after {
@@ -139,10 +146,13 @@ key-overview-details kui-tab-bar .tab-bar ol:after {
     width: 100%;
     height: 1px;
     position: absolute;
-    top: 42px;
+    top: 43px;
 }
 key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 10px;
+    border-left: 1px solid red !important;
+    border-right: 1px solid green !important;
+    margin-right: -1px;
 }
 kui-content-header .content-header {
     height: auto;
@@ -457,9 +467,9 @@ key-details-overview-summary .mb-1 {
 kui-tab-bar .tab-bar ol li kui-icon {
     display: inline-block !important;
 }
-key-overview-details kui-tab-bar .tab-bar ol li {
+/* key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 0 0.55rem;
-}
+} */
 
 /* Adjust small listing RHS icon (eg video icon) */
 key-listing-description {
