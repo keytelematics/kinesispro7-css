@@ -166,7 +166,8 @@ kui-content-header .content-header {
 }
 
 /* Asset list search Go btn */
-.content-card-block .input-group .btn-secondary {
+.content-card-block .input-group .btn-secondary,
+kui-input-group .btn-secondary {
     background: var(--color-telematics-blue);
     color: #fff;
     border: 0;
