@@ -179,7 +179,8 @@ kui-content-header .content-header {
     color: #fff;
 }
 /* Asset list search Close btn */
-.content-card-block .input-group .btn-danger {
+.content-card-block .input-group .btn-danger,
+kui-input-group button.btn-danger {
     background: #f7f7f7;
     color: var(--color-grey-text);
     border: 0;
