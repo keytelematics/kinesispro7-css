@@ -180,6 +180,14 @@ key-map-toolbar {
 .leaflet-tooltip-left {
     margin-right: 4px;
 }
+.leaflet-tooltip-right .map-marker-color-bar {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.leaflet-tooltip-left .map-marker-color-bar {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
 
 /* Show icon (not red text) for highlighted stale Time Ago text */
 key-listing-stat .text-danger {
