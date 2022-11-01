@@ -339,10 +339,10 @@ key-trip-feed-item #entry-description {
 /* TRIP HISTORY */
 
 /* Reduce the size of the route markers */
-key-trip-replay-map .leaflet-map-pane svg {
+/* key-trip-replay-map .leaflet-map-pane svg {
     transform: scale(0.7);
     transform-origin: bottom center;
-}
+} */
 
 
 
