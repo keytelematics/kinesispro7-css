@@ -332,7 +332,7 @@ key-listing key-listing-avatar kui-icon .icon-lock:before {
 }
 
 /* Bolder tag icon in map pin's label */
-leaflet-tooltip icon {
+.leaflet-tooltip .icon {
     font-weight: bold;;
 }
 
