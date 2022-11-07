@@ -318,7 +318,18 @@ key-trip-feed-item #entry-description {
     width: calc(100% + 105px);
 }
 
-
+/* Geo-lock icon over pin in list */
+key-listing key-listing-avatar kui-icon {
+    padding: 5px;
+    border-radius: 100%;
+    position: relative;
+    top: -8px;
+    left: -4px;
+    filter: drop-shadow(3px 3px 0 rgba(255,255,255,0.9));
+}
+key-listing key-listing-avatar kui-icon .icon-lock:before {
+    font-weight: bold;
+}
 
 
 
