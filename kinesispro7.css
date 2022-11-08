@@ -333,7 +333,12 @@ key-listing key-listing-avatar kui-icon .icon-lock:before {
 
 /* Bolder tag icon in map pin's label */
 .leaflet-tooltip .icon {
-    font-weight: bold;;
+    font-weight: bold;
+}
+
+/* Min height on some elements to ensure we can see spinner on mobile */
+key-video-list {
+    min-height: 100px;
 }
 
 
