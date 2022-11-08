@@ -331,8 +331,8 @@ key-listing key-listing-avatar kui-icon .icon-lock:before {
     font-weight: bold;
 }
 
-/* Bolder tag icon in map pin's label */
-.leaflet-tooltip .icon {
+/* Bolder tag icons */
+.icon.icon-tag {
     font-weight: bold;
 }
 
