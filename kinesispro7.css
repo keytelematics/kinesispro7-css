@@ -16,6 +16,7 @@
     --color-bg-hover-darker: #e3e7e7;
     --color-border-grey: #f3f6f6;
     --montserrat-weight: 500;
+    --color-red: #f44054;
 }
 
 /* Open Sans for sub text */
@@ -339,6 +340,11 @@ key-listing key-listing-avatar kui-icon .icon-lock:before {
 /* Min height on some elements to ensure we can see spinner on mobile */
 key-video-list {
     min-height: 100px;
+}
+
+/* Bell notification icon: colourise the badge to be red */
+kui-icon[name=bells] .notification {
+    border: 3px solid var(--color-red)!important;
 }
 
 
