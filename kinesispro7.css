@@ -536,9 +536,11 @@ key-details-overview-summary .mb-1 {
 }
 
 /* show icons in tabs */
-kui-tab-bar .tab-bar ol li kui-icon {
+kui-tab-bar .tab-bar ol li kui-icon, 
+kui-tab-bar .tab-bar ol li kui-icon.tab-icon {
     display: inline-block !important;
 }
+
 /* key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 0 0.55rem;
 } */
