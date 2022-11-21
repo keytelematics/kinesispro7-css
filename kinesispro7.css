@@ -371,6 +371,13 @@ kui-icon[name=bells] .notification {
     transform-origin: bottom center;
 } */
 
+/* Tint the background of the selected state of options flyout */
+kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem-link:not(.ui-state-disabled):hover, 
+kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link
+{
+    background-color: var(--color-pale-blue-bg);
+}
+
 
 
 /* --- */
@@ -436,7 +443,7 @@ kui-menu-brand .brand img {
 }
 
 a.main-nav-link.nav-link.action.hover.active {
-    background: #F5FCFE !important;
+    background: var(--color-pale-blue-bg) !important;
 }
 
 /* a.main-nav-link.nav-link.action:hover {
