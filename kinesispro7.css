@@ -318,6 +318,10 @@ feed-entry-info {
 key-trip-feed-item #entry-description {
     width: calc(100% + 105px);
 }
+key-trip-feed-item .entry-title:has(.icon-trip-parked) + #entry-description {
+    width: calc(100% + 86px);
+}
+
 
 /* Geo-lock icon over pin in list */
 key-listing key-listing-avatar kui-icon {
