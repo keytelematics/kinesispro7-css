@@ -11,7 +11,7 @@
     --color-telematics-blue-darker: #0075A9;
     --color-pale-blue-bg: #F5FCFE;
     --color-pale-blue-bg-hover: #FBFEFE;
-    --color-bg-hover: #f5f7f7;
+    --color-bg-hover: #edf3f5;
     --color-bg-hover--lighter: #f8fafa;
     --color-bg-hover-darker: #e3e7e7;
     --color-border-grey: #f3f6f6;
@@ -375,7 +375,7 @@ kui-icon[name=bells] .notification {
 kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem-link:not(.ui-state-disabled):hover, 
 kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link
 {
-    background-color: var(--color-pale-blue-bg);
+    background-color: var(--color-bg-hover);
 }
 
 
