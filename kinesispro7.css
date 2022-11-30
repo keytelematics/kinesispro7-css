@@ -10,7 +10,8 @@
     --color-telematics-blue: #00A7E1;
     --color-telematics-blue-darker: #0075A9;
     --color-pale-blue-bg: #F5FCFE;
-    --color-pale-blue-bg-hover: #FBFEFE;
+    --color-pale-blue-bg-hover: #FBFEFE;    
+    --color-bg-active: #f5f7f7;
     --color-bg-hover: #edf3f5;
     --color-bg-hover--lighter: #f8fafa;
     --color-bg-hover-darker: #e3e7e7;
@@ -67,7 +68,7 @@ a.main-nav-link.nav-link.action:hover,
 kui-tab-bar .tab-bar ol li.hover:hover,
 .map-button:hover
 {
-    background: var(--color-bg-hover) !important;
+    background: var(--color-bg-active) !important;
 }
 .feed-entry:hover {
     background: var(--color-bg-hover--lighter);
