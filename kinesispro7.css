@@ -379,7 +379,7 @@ kui-icon[name=bells] .notification {
 kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem-link:not(.ui-state-disabled):hover, 
 kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link
 {
-    background-color: var(--color-bg-hover);
+    background: var(--color-bg-hover);
 }
 
 
