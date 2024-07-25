@@ -312,7 +312,9 @@ key-listing kui-icon {
 
 
 
-/* Allow grey info text  to run full width of panel in Asset Details > Trips */ 
+/* Allow grey info text to run full width of panel in Asset Details > Trips */ 
+/* CAUSES ISSUES ON SMALLER SCREENS - removed 25/7/24 */
+/*
 feed-entry-info {
     margin-left: 0 !important;
 }
@@ -322,6 +324,7 @@ key-trip-feed-item #entry-description {
 key-trip-feed-item .entry-title:has(.icon-trip-parked) + #entry-description {
     width: calc(100% + 86px);
 }
+*/
 
 
 /* Geo-lock icon over pin in list */
