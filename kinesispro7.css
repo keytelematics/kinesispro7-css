@@ -751,6 +751,26 @@ button .icon-video::before {
 }
 
 
+/* Give the 'pin/reorder telemetry property' functionality a simple interactivity signifier (eg ⋯ on the RHS of the row) */
+/* NEEDS WORK: currently overlaps right-aligned values in some themes > layouts > breakpoints. */
+/*
+key-details-ordered-list-item {
+    position: relative;
+    width: 100%;
+    background: pink;
+}
+key-details-ordered-list-item:hover::after {
+    content: "⋯";
+    right: 10px;
+    top: 50%;
+    transform: translateY(-45%);
+    position: absolute;
+    color: #888;
+    border: 1px solid red;
+}
+*/
+
+
 /*
 
 @font-face {
