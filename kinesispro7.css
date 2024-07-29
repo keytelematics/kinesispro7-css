@@ -752,11 +752,11 @@ button .icon-video::before {
 
 
 /* Give the 'pin/reorder telemetry property' functionality a simple interactivity signifier (eg ⋯ on the RHS of the row) */
-key-details-ordered-list-item {
+kui-card-body key-details-ordered-list-item {
     position: relative;
     width: 100%;
 }
-.ordered-list-item:hover key-details-ordered-list-item::after {
+kui-card-body .ordered-list-item:hover key-details-ordered-list-item::after {
     content: "⋯";
     right: 10px;
     top: 50%;
