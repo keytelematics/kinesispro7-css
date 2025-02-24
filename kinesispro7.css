@@ -742,6 +742,7 @@ app-radio-control kui-icon .icon-draw-polygon::before {
 }
 
 /* SMALL Geofences */
+.zone-list kui-icon .icon-draw-polygon::before,
 key-map-options.compact key-map-options-list kui-icon .icon-draw-polygon::before,
 .compact key-map-options-list kui-icon .icon-draw-polygon::before,
 .main-nav-link kui-icon .icon-draw-polygon::before,
