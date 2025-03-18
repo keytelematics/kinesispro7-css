@@ -504,7 +504,7 @@ kui-content-header .content-header .icon-mount i.icon {
 }
 
 key-details-sidebar .list-group-item.list-item:not(:first-child) {
-    margin-left: 15px;
+    /* margin-left: 15px; */ /* Fix */
     padding-bottom: 0.5rem !important;
 }
 
