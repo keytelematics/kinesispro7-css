@@ -514,6 +514,16 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:first-
     text-transform: uppercase;
     font-weight: normal;
     color: var(--color-grey-text);
+
+    white-space: normal !important; /* Override: prevent overlapping text */
+    text-overflow: initial !important; /* Override: prevent overlapping text */
+    word-wrap: break-word;
+}
+key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
+    justify-content: space-between; /* Override: prevent overlapping text */
+}
+kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
+    justify-content: unset; /* Revert for the wider panel on the alt theme; see `Simple Demo Account` (not used much?) */
 }
 
 key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child strong {
