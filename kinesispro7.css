@@ -518,6 +518,7 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:first-
     white-space: normal !important; /* Override: prevent overlapping text */
     text-overflow: initial !important; /* Override: prevent overlapping text */
     word-wrap: break-word;
+    margin-right: 5px;
 }
 key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
     justify-content: space-between; /* Override: prevent overlapping text */
