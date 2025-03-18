@@ -538,6 +538,9 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:last-c
     text-align: left;
     /* margin-left: 0px !important; */ /* Override: prevent overlapping text */
 }
+kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container .list-group-item-text:last-child {
+    margin-left: 0px !important; /* Override: Revert for the wider panel on the alt theme; see `Simple Demo Account` (not used much?) */
+}
 
 key-details-sidebar .nav-title h6 {
     text-transform: none;
