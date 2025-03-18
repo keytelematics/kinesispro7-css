@@ -509,7 +509,7 @@ key-details-sidebar .list-group-item.list-item:not(:first-child) {
 }
 
 key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child {
-    width: 150px;
+    /* width: 150px; */ /* Override: prevent overlapping text */
     text-align: left;
     text-transform: uppercase;
     font-weight: normal;
@@ -525,6 +525,9 @@ key-details-sidebar .list-item .list-item-container key-details-ordered-list-ite
 kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
     justify-content: unset; /* Revert for the wider panel on the alt theme; see `Simple Demo Account` (not used much?) */
 }
+kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child {
+    width: 150px; /* Override: prevent overlapping text */
+}
 
 key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child strong {
     font-weight: normal;
@@ -533,7 +536,7 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:first-
 
 key-details-sidebar .list-item .list-item-container .list-group-item-text:last-child {
     text-align: left;
-    margin-left: 0px !important;
+    /* margin-left: 0px !important; */ /* Override: prevent overlapping text */
 }
 
 key-details-sidebar .nav-title h6 {
