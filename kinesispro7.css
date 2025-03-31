@@ -181,7 +181,7 @@ key-overview-details tab-bar .text-truncate {
     }
     kui-tab-bar {
         /* Remove weird grey line (partial auto scrollbar?) */
-        overflow: hidden;
+        /* overflow: hidden; */ /* REMOVED as it was hiding the video "Saved" and "Request" tabs. */
     }
 }
 
