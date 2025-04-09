@@ -164,7 +164,7 @@ key-overview-details kui-tab-bar .tab-bar ol li {
 key-overview-details kui-tab-bar .tab-bar ol li:last-of-type {
     margin-right: 0;
 }
-kui-content-header .content-header {
+kui-content-header:not(.datetime-bar) .content-header {
     height: auto;
 }
 key-overview-details tab-bar .text-truncate {
@@ -812,6 +812,10 @@ kui-card-body .ordered-list-item:hover key-details-ordered-list-item::after {
     transform: translateY(-45%);
     position: absolute;
     color: #888;
+}
+
+/* Increase size of date picker */
+.datetime-bar {
 }
 
 /*
