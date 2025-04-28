@@ -750,8 +750,8 @@ kui-content-header-actions kui-icon .icon-video::before {
     mask-repeat: no-repeat;
     mask-size: contain;
     display: inline-block;
-    width: 1em;
-    height: 0.9em;
+    width: 1.4em;
+    height: 1.2em;
     /* color: red; */ /* TEST */
     background: currentColor;
 }
