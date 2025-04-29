@@ -813,8 +813,8 @@ key-map-options key-map-option-zones kui-icon .icon-draw-polygon::before {
     mask-repeat: no-repeat;
     mask-size: contain;
     display: inline-block;
-    width: 1em;
-    height: 1.05em;
+    width: 1.1em;
+    height: 1.1em;
     background: currentColor;
 }
 /* SMALL Draw / New Geofence (with PLUS) -- DONE, TEST... CLASHES??? */
