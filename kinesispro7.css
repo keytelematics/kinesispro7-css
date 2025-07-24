@@ -9,7 +9,7 @@
     --color-grey-text-darker: #45545b;
     --color-telematics-blue: #00a7e1;
     --color-telematics-blue-darker: #0075a9;
-    --color-pale-blue-bg: #f5fcfe;
+    --color-pale-blue-bg: #d0e8f8; /* Was #f5fcfe; */
     --color-pale-blue-bg-hover: #fbfefe;
     --color-bg-active: #f5f7f7;
     --color-bg-hover: #edf3f5;
