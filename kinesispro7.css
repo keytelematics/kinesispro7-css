@@ -35,7 +35,16 @@ key-feed-entry-info,
 }
 /* Open Sans for marker labels */
 .font-sans-serif {
-    font-family: 'Open Sans', Montserrat, Ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !important;
+    font-family:
+        'Open Sans',
+        Montserrat,
+        Ubuntu,
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Helvetica,
+        Arial,
+        sans-serif !important;
     font-weight: 500;
     padding: 0 3px;
 }
@@ -191,11 +200,13 @@ key-overview-details tab-bar .text-truncate {
 
 /* Asset list search Go btn */
 .content-card-block .input-group .btn-secondary,
-kui-input-group .btn-secondary {
+kui-input-group .btn-secondary:not(.input-group-addon) {
+    /* `:not(.input-group-addon)` excludes the new PDF utility buttons above the PDF */
     background: var(--color-telematics-blue);
     color: #fff;
     border: 0;
 }
+
 .content-card-block .input-group .btn-secondary:hover {
     opacity: unset;
     background: var(--color-telematics-blue-darker);
@@ -717,7 +728,10 @@ key-map-options kui-icon {
 @font-face {
     font-family: 'kinesispro7-minimap';
     src: url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.eot');
-    src: url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.eot?#iefix') format('embedded-opentype'), url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.woff') format('woff'), url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.ttf') format('truetype'),
+    src:
+        url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.eot?#iefix') format('embedded-opentype'),
+        url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.woff') format('woff'),
+        url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.ttf') format('truetype'),
         url('https://raw.githubusercontent.com/keytelematics/kinesispro7-css/main/kinesispro7-minimap-markers.svg#typicons') format('svg');
     font-weight: normal;
     font-style: normal;
