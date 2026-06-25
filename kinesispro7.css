@@ -63,7 +63,7 @@ kui-tab-bar .tab-bar ol li,
 #entry-description,
 .entry-description,
 kui-content-header-actions {
-    color: var(--color-telematics-blue); !important;
+    color: var(--color-grey-text);
 }
 
 .main-nav-link.active kui-icon {
