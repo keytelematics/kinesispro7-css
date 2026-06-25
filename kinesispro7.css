@@ -482,6 +482,7 @@ a.main-nav-link.nav-link.action.hover.active {
     background: var(--color-pale-blue-bg) !important;
     border-radius: 0.6rem !important;
     margin: 0rem 0.4rem;
+    padding-left: 0.8rem
 }
 
 .main-nav-link {
