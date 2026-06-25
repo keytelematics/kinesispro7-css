@@ -63,8 +63,13 @@ kui-tab-bar .tab-bar ol li,
 #entry-description,
 .entry-description,
 kui-content-header-actions {
-    color: var(--color-grey-text);
+    color: var(--color-telematics-blue); !important;
 }
+
+.main-nav-link.active kui-icon {
+    color: #333 !important;
+}
+
 key-listing-description .muted-less {
     opacity: unset !important;
 }
@@ -97,11 +102,15 @@ kui-tab-bar .tab-bar ol li.hover:hover,
 .feed-entry:hover {
     background: var(--color-bg-hover--lighter);
 }
+
 .nav-link:hover .nav-link-text,
+.nav-link:hover kui-icon,
 .tab-bar ol li:hover .text-truncate,
 a.main-nav-link.nav-link.action:hover .nav-link-text,
+a.main-nav-link.nav-link.action:hover kui-icon,
 .nav-link.hover:hover,
 .app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
+.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover kui-icon,
 .overview-details-footer .action.hover:hover,
 .text-link:hover {
     opacity: unset;
@@ -469,17 +478,19 @@ kui-menu-brand .brand img {
     padding: 0.8rem 1rem;
 }
 
-.main-nav-link.nav-link.active {
-    border-top: solid 1px #ddd;
-    border-bottom: solid 1px #ddd;
-}
-
 a.main-nav-link.nav-link.action.hover.active {
     background: var(--color-pale-blue-bg) !important;
+    border-radius: 0.6rem !important;
+    margin: 0rem 0.4rem;
 }
 
-/* a.main-nav-link.nav-link.action:hover {
-    background: #FBFEFE !important;
+.main-nav-link {
+    width: auto;
+}
+
+/* .main-nav-link.nav-link.active {
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
 } */
 
 .main-nav-link.active .nav-link-text {
@@ -488,6 +499,18 @@ a.main-nav-link.nav-link.action.hover.active {
 
 .main-nav-link.active:before {
     width: 0 !important;
+}
+
+.main-nav-link {
+    &.active kui-icon,
+    &:hover kui-icon {
+        color: #333 !important;
+    }
+}
+
+.main-nav-link.active {
+    border-radius: 1rem !important;
+    margin: 0rem 0.3rem
 }
 
 .nav-section .nav-link-text {
