@@ -755,9 +755,9 @@ key-map-options kui-icon {
 
 /* FONT-AWESOME ICON SUBSTITUTION */
 
-.main-nav kui-icon {
+/* .main-nav kui-icon {
     color: var(--color-telematics-blue);
-}
+} */
 
 /* Profile */
 .main-nav .icon-user:before {
