@@ -517,12 +517,12 @@ a.main-nav-link.nav-link.action.hover.active {
     width: 0 !important;
 }
 
-.main-nav-link {
+/* .main-nav-link {
     &.active kui-icon,
     &:hover kui-icon {
         color: #333 !important;
     }
-}
+} */
 
 .main-nav-link.active {
     border-radius: 1rem !important;
