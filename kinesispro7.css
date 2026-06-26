@@ -489,16 +489,17 @@ kui-menu-brand .brand img {
 
 a.main-nav-link.nav-link.action.hover.active {
     background: var(--menu-item-bg-color-active) !important;
+    color: var(--menu-item-text-color-active) !important;
     border-radius: 0.6rem !important;
     margin: 0rem 0.4rem;
-    padding-left: 0.8rem
+    padding-left: 0.8rem;
 }
 
 a.main-nav-link.nav-link.action:hover {
     background: var(--color-bg-active) !important;
     border-radius: 0.6rem !important;
     margin: 0rem 0.4rem;
-    padding-left: 0.8rem
+    padding-left: 0.8rem;
 }
 
 .main-nav-link {
@@ -516,9 +517,7 @@ a.main-nav-link.nav-link.action:hover {
 }
 
 .main-nav-link.active .nav-link-text,
-.main-nav-link.active kui-icon,
-.main-nav-link.active:hover .nav-link-text,
-.main-nav-link.active:hover kui-icon {
+.main-nav-link.active kui-icon {
   color: var(--menu-item-text-color-active) !important;
 }
 
