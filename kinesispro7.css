@@ -102,12 +102,12 @@ kui-tab-bar .tab-bar ol li.hover:hover,
 
 /* a.main-nav-link.nav-link.action:hover .nav-link-text,
 a.main-nav-link.nav-link.action:hover kui-icon, */
-.nav-link:hover .nav-link-text,
-.nav-link:hover kui-icon,
+/* .nav-link:hover .nav-link-text,
+.nav-link:hover kui-icon, */
 .tab-bar ol li:hover .text-truncate,
 .nav-link.hover:hover,
-.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
-.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover kui-icon,
+/* .app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
+.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover kui-icon, */
 .overview-details-footer .action.hover:hover,
 .text-link:hover {
     opacity: unset;
