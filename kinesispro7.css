@@ -474,16 +474,16 @@ kui-menu-brand .brand img {
 
 
 /*Nav bar menu item text and icon colour*/
-.nav-link:not(.active) .nav-link-text,
+/* .nav-link:not(.active) .nav-link-text,
 .nav-link:not(.active) kui-icon {
     color: var(--menu-item-text-color);
-}
+} */
 
 /*Nav bar menu active item text and icon colour*/
-.nav-link.active .nav-link-text,
+/* .nav-link.active .nav-link-text,
 .nav-link.active kui-icon {
     color: var(--menu-item-text-color-active);
-}
+} */
 
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
@@ -508,13 +508,21 @@ a.main-nav-link.nav-link.action.hover.active {
     border-top: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
 } */
-/* 
-.main-nav-link.active .nav-link-text {
-    color: #333 !important;
-} */
 
-.main-nav-link.active:before {
-    width: 0 !important;
+.main-nav-link.active .nav-link-text,
+.main-nav-link.active kui-icon {
+    color: var(--menu-item-text-color-active);
+}
+
+.main-nav-link .nav-link-text,
+.main-nav-link kui-icon,
+{
+    color: var(--menu-item-text-color);
+}
+
+.main-nav-link:hover .nav-link-text,
+.main-nav-link:hover kui-icon {
+    color: blue;
 }
 
 /* .main-nav-link {
@@ -523,6 +531,11 @@ a.main-nav-link.nav-link.action.hover.active {
         color: #333 !important;
     }
 } */
+
+.main-nav-link.active:before {
+    width: 0 !important;
+}
+
 
 .main-nav-link.active {
     border-radius: 1rem !important;
