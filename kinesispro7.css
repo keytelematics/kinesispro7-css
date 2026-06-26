@@ -520,9 +520,9 @@ a.main-nav-link.nav-link.action:hover {
   color: var(--menu-item-text-color-active) !important;
 }
 
-::ng-deep .main-nav-link.active:hover .nav-link-text,
-::ng-deep .main-nav-link.active:hover kui-icon {
-  color: red !important;
+.main-nav-link.active:hover .nav-link-text,
+.main-nav-link.active:hover kui-icon {
+  color: var(--menu-item-text-color-active) !important;
 }
 
 .main-nav-link.active:before {
