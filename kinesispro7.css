@@ -475,14 +475,14 @@ kui-menu-brand .brand img {
 
 
 /*Nav bar menu item text and icon colour*/
-.nav-link:not(.active) .nav-link-text,
-.nav-link:not(.active) kui-icon {
+.main-nav-link.active:not(.active) .nav-link-text,
+.main-nav-link.active:not(.active) kui-icon {
     color: var(--menu-item-text-color);
 }
 
 /*Nav bar menu active item text and icon colour*/
-.nav-link.active .nav-link-text,
-.nav-link.active kui-icon {
+.main-nav-link.active .nav-link-text,
+.main-nav-link.active kui-icon {
     color: var(--menu-item-text-color-active);
 }
 
@@ -509,14 +509,14 @@ a.main-nav-link.nav-link.action.hover.active {
     border-top: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
 } */
-
+/* 
 .main-nav-link.active .nav-link-text {
     color: #333 !important;
-}
-
-/* .main-nav-link.active:before {
-    width: 0 !important;
 } */
+
+.main-nav-link.active:before {
+    width: 0 !important;
+}
 
 .main-nav-link {
     &.active kui-icon,
@@ -525,10 +525,10 @@ a.main-nav-link.nav-link.action.hover.active {
     }
 }
 
-/* .main-nav-link.active {
+.main-nav-link.active {
     border-radius: 1rem !important;
     margin: 0rem 0.3rem
-} */
+}
 
 .nav-section .nav-link-text {
     margin-left: 0.4rem;
