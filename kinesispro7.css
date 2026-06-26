@@ -19,6 +19,9 @@
     --montserrat-weight: 500;
     --color-red: #f44054;
     --color-report-background: #FAFBFC;
+    --menu-item-text-color: #5C8BAO;
+    --menu-item-text-color-active: #1A33F3;
+    --menu-item-bg-color-active: #E2F2FF;
 }
 
 /* Open Sans for sub text */
@@ -468,7 +471,20 @@ kui-menu-brand .brand img {
     max-width: 145px;
 }
 
-/* navigation icons */
+/* NAVIGATION BAR */
+
+
+/*Nav bar menu item text and icon colour*/
+.nav-link:not(.active) .nav-link-text,
+.nav-link:not(.active) kui-icon {
+    color: var(--menu-item-text-color);
+}
+
+/*Nav bar menu active item text and icon colour*/
+.nav-link.active .nav-link-text,
+.nav-link.active kui-icon {
+    color: var(--menu-item-text-color-active);
+}
 
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
@@ -479,7 +495,7 @@ kui-menu-brand .brand img {
 }
 
 a.main-nav-link.nav-link.action.hover.active {
-    background: var(--color-pale-blue-bg) !important;
+    background: var(--menu-item-bg-color-active) !important;
     border-radius: 0.6rem !important;
     margin: 0rem 0.4rem;
     padding-left: 0.8rem
@@ -498,9 +514,9 @@ a.main-nav-link.nav-link.action.hover.active {
     color: #333 !important;
 }
 
-.main-nav-link.active:before {
+/* .main-nav-link.active:before {
     width: 0 !important;
-}
+} */
 
 .main-nav-link {
     &.active kui-icon,
@@ -509,10 +525,10 @@ a.main-nav-link.nav-link.action.hover.active {
     }
 }
 
-.main-nav-link.active {
+/* .main-nav-link.active {
     border-radius: 1rem !important;
     margin: 0rem 0.3rem
-}
+} */
 
 .nav-section .nav-link-text {
     margin-left: 0.4rem;
