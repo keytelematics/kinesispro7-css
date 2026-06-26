@@ -90,7 +90,6 @@ key-listing-description .muted-less {
 }
 
 /* Hover bg + text colour states */ /* TODO: also focus states */
-a.main-nav-link.nav-link.action:hover,
 .listing--active,
 .listing--hover:hover:not(.listing--active),
 kui-tab-bar .tab-bar ol li.hover:hover,
@@ -101,11 +100,11 @@ kui-tab-bar .tab-bar ol li.hover:hover,
     background: var(--color-bg-hover--lighter);
 }
 
+/* a.main-nav-link.nav-link.action:hover .nav-link-text,
+a.main-nav-link.nav-link.action:hover kui-icon, */
 .nav-link:hover .nav-link-text,
 .nav-link:hover kui-icon,
 .tab-bar ol li:hover .text-truncate,
-a.main-nav-link.nav-link.action:hover .nav-link-text,
-a.main-nav-link.nav-link.action:hover kui-icon,
 .nav-link.hover:hover,
 .app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
 .app-menu .app-menu-content a.main-nav-link.nav-link.active:hover kui-icon,
@@ -491,6 +490,13 @@ kui-menu-brand .brand img {
 
 a.main-nav-link.nav-link.action.hover.active {
     background: var(--menu-item-bg-color-active) !important;
+    border-radius: 0.6rem !important;
+    margin: 0rem 0.4rem;
+    padding-left: 0.8rem
+}
+
+a.main-nav-link.nav-link.action:hover {
+    background: var(--color-bg-active) !important;
     border-radius: 0.6rem !important;
     margin: 0rem 0.4rem;
     padding-left: 0.8rem
