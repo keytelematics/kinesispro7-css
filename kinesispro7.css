@@ -58,7 +58,6 @@ key-details-overview-summary h3 {
 }
 
 /* Lighter grey text for various */
-.nav-link:not(.active) .nav-link-text,
 key-listing-description,
 .listing .listing__stat,
 .details-overview__summary .small,
@@ -475,14 +474,14 @@ kui-menu-brand .brand img {
 
 
 /*Nav bar menu item text and icon colour*/
-.main-nav-link.active:not(.active) .nav-link-text,
-.main-nav-link.active:not(.active) kui-icon {
+.nav-link:not(.active) .nav-link-text,
+.nav-link:not(.active) kui-icon {
     color: var(--menu-item-text-color);
 }
 
 /*Nav bar menu active item text and icon colour*/
-.main-nav-link.active .nav-link-text,
-.main-nav-link.active kui-icon {
+.nav-link.active .nav-link-text,
+.nav-link.active kui-icon {
     color: var(--menu-item-text-color-active);
 }
 
