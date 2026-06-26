@@ -37,6 +37,7 @@ key-feed-entry-info,
 .item-list label {
     font-family: 'Open Sans', Montserrat, sans-serif;
 }
+
 /* Open Sans for marker labels */
 .font-sans-serif {
     font-family:
@@ -52,6 +53,7 @@ key-feed-entry-info,
     font-weight: 500;
     padding: 0 3px;
 }
+
 /* reset to primary font */
 key-details-overview-summary h3 {
     font-family: Montserrat, 'Open Sans', sans-serif;
@@ -96,18 +98,13 @@ kui-tab-bar .tab-bar ol li.hover:hover,
 .map-button:hover {
     background: var(--color-bg-active) !important;
 }
+
 .feed-entry:hover {
     background: var(--color-bg-hover--lighter);
 }
 
-/* a.main-nav-link.nav-link.action:hover .nav-link-text,
-a.main-nav-link.nav-link.action:hover kui-icon, */
-/* .nav-link:hover .nav-link-text,
-.nav-link:hover kui-icon, */
 .tab-bar ol li:hover .text-truncate,
 .nav-link.hover:hover,
-/* .app-menu .app-menu-content a.main-nav-link.nav-link.active:hover .nav-link-text,
-.app-menu .app-menu-content a.main-nav-link.nav-link.active:hover kui-icon, */
 .overview-details-footer .action.hover:hover,
 .text-link:hover {
     opacity: unset;
@@ -129,17 +126,21 @@ kui-tab-bar .tab-bar *,
 .feed-entry {
     border-color: var(--color-border-grey);
 }
+
 div:not(#tabs) > .tabs-header > .content-header {
     border-top: 0;
 }
+
 .overview-details-footer .content-header,
 kui-content-header:first-of-type .content-header,
 .overview-details-footer .content-header {
     border-bottom: 0;
 }
+
 #tabs kui-content-header:first-of-type .content-header {
     border-bottom: 1px solid var(--color-border-grey);
 }
+
 kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
     border-right: 1px solid var(--color-border-grey);
 }
@@ -148,24 +149,27 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol li:last-of-type {
 key-status-overview kui-side-panel {
     max-width: 100%;
 }
+
 @media (min-width: 768px) {
     key-status-overview kui-side-panel {
         min-width: 430px !important;
     }
 }
+
 kui-tab-bar .tab-bar ol li {
     font-size: 12.5px;
 }
+
 kui-tab-bar .tab-bar ol li kui-icon i {
     padding: 0.2rem;
 }
+
 /* ...and make the tabs wrap */
 kui-content-header .content-header .tab-mount kui-tab-bar .tab-bar {
-    /* border-top: 1px solid var(--color-border-grey);
-    border-bottom: 1px solid var(--color-border-grey); */
     height: calc(100% + 1px);
     overflow: hidden;
 }
+
 kui-content-header .content-header .tab-mount kui-tab-bar ol {
     flex-wrap: wrap;
     justify-content: center;
@@ -175,10 +179,12 @@ kui-content-header .content-header .tab-mount kui-tab-bar ol {
     position: relative;
     left: -1px;
 }
+
 key-overview-details kui-tab-bar {
     width: 100% !important;
     overflow: hidden !important;
 }
+
 key-overview-details kui-tab-bar .tab-bar ol:after {
     content: '';
     border-top: 1px solid var(--color-border-grey);
@@ -187,26 +193,32 @@ key-overview-details kui-tab-bar .tab-bar ol:after {
     position: absolute;
     top: 39px;
 }
+
 @media (max-width: 767px) {
     key-overview-details kui-tab-bar .tab-bar ol:after {
         top: 39px;
     }
 }
+
 key-overview-details kui-tab-bar .tab-bar ol li {
     padding: 10px;
     border-left: 1px solid var(--color-border-grey) !important;
     border-right: 1px solid var(--color-border-grey) !important;
     margin-right: -1px;
 }
+
 key-overview-details kui-tab-bar .tab-bar ol li:last-of-type {
     margin-right: 0;
 }
+
 kui-content-header:not(.datetime-bar) .content-header {
     height: auto;
 }
+
 key-overview-details tab-bar .text-truncate {
     text-overflow: unset;
 }
+
 @media (max-width: 767px) {
     /* Hide gap – OK to hide (star) */
     key-overview-details #tabs kui-content-header .content-header .icon-mount {
@@ -235,9 +247,11 @@ kui-input-group .btn-secondary:not(.input-group-addon) {
     opacity: unset;
     background: var(--color-telematics-blue-darker);
 }
+
 .content-card-block .input-group .btn-secondary kui-icon {
     color: #fff;
 }
+
 /* Asset list search Close btn */
 .content-card-block .input-group .btn-danger,
 kui-input-group button.btn-danger {
@@ -245,6 +259,7 @@ kui-input-group button.btn-danger {
     color: var(--color-grey-text);
     border: 0;
 }
+
 .content-card-block .input-group .btn-danger:hover,
 .content-card-block .input-group .btn-danger:focus,
 .content-card-block .input-group .btn-danger:active {
@@ -255,9 +270,11 @@ kui-input-group button.btn-danger {
 kui-side-panel.left.shadow.position-absolute {
     box-shadow: 0 5px 8px 0 rgb(0 42 69 / 18%);
 }
+
 .leaflet-bar {
     box-shadow: 0 5px 8px 0 rgb(0 42 69 / 18%) !important;
 }
+
 key-map-toolbar {
     filter: drop-shadow(0 5px 8px rgba(0, 42, 69, 18%));
 }
@@ -266,6 +283,7 @@ key-map-toolbar {
 .leaflet-tooltip {
     padding-right: 12px;
 }
+
 .map-marker-color-bar {
     display: inline-block !important;
     position: absolute;
@@ -275,16 +293,20 @@ key-map-toolbar {
     width: 6px !important;
     margin-right: 0 !important;
 }
+
 .leaflet-tooltip-right {
     margin-left: 4px;
 }
+
 .leaflet-tooltip-left {
     margin-right: 4px;
 }
+
 .leaflet-tooltip-right .map-marker-color-bar {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
 }
+
 .leaflet-tooltip-left .map-marker-color-bar {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -294,6 +316,7 @@ key-map-toolbar {
 key-listing-stat .text-danger {
     color: var(--color-grey-text) !important;
 }
+
 key-listing-stat > span.text-danger::after {
     content: ' ⚠️';
     margin-right: 1em;
@@ -304,14 +327,17 @@ key-listing-stat > span.text-danger::after {
     transform-origin: bottom center;
     transition: all 0.15s cubic-bezier(0.28, 0.84, 0.42, 1);
 }
+
 .position-marker:hover svg {
     transform: scale(1.2);
 }
+
 /* Animate map label on hover */
 .map-marker-color-bar,
 .leaflet-tooltip {
     transition: all 0.15s cubic-bezier(0.28, 0.84, 0.42, 1);
 }
+
 .position-marker:hover + .leaflet-tooltip {
     opacity: 1 !important;
 }
@@ -321,11 +347,13 @@ kui-content-header .content-header kui-icon:hover i.icon,
 kui-content-header .content-header kui-icon:focus i.icon kui-content-header .content-header kui-icon:active i.icon {
     color: var(--content-font-color);
 }
+
 /* Alert icons etc */
 key-listing kui-icon {
     color: var(--color-telematics-blue);
     transform: scale(0.9);
 }
+
 /* Make sure all main left nav icons and their text labels line up */
 .main-nav kui-icon i {
     min-width: 25px;
@@ -335,23 +363,10 @@ key-listing kui-icon {
 .input-group kui-select:not(:last-child) .dropdown .dropdown-toggle {
     border-right: 1px solid transparent !important;
 }
+
 .input-group kui-select:not(:last-child) .dropdown .dropdown-toggle:focus {
     border-right: 1px solid var(--color-primary-color) !important;
 }
-
-/* Allow grey info text to run full width of panel in Asset Details > Trips */
-/* CAUSES ISSUES ON SMALLER SCREENS - removed 25/7/24 */
-/*
-feed-entry-info {
-    margin-left: 0 !important;
-}
-key-trip-feed-item #entry-description {
-    width: calc(100% + 105px);
-}
-key-trip-feed-item .entry-title:has(.icon-trip-parked) + #entry-description {
-    width: calc(100% + 86px);
-}
-*/
 
 /* Geo-lock icon over pin in list */
 key-listing key-listing-avatar kui-icon {
@@ -362,6 +377,7 @@ key-listing key-listing-avatar kui-icon {
     left: -4px;
     filter: drop-shadow(3px 3px 0 rgba(255, 255, 255, 0.9));
 }
+
 key-listing key-listing-avatar kui-icon .icon-lock:before {
     font-weight: bold;
 }
@@ -390,6 +406,7 @@ kui-icon[name='bells'] .notification {
 ::-webkit-scrollbar-thumb {
     border-radius: 12px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.3);
     background-clip: padding-box;
@@ -402,12 +419,6 @@ key-map-toolbar input[type='checkbox'] {
 }
 
 /* TRIP HISTORY */
-
-/* Reduce the size of the route markers */
-/* key-trip-replay-map .leaflet-map-pane svg {
-    transform: scale(0.7);
-    transform-origin: bottom center;
-} */
 
 /* Tint the background of the selected state of options flyout */
 kui-option-panel p-tieredmenu .ui-tieredmenu .ui-menuitem-link:not(.ui-state-disabled):hover,
@@ -441,6 +452,7 @@ kui-content-header .content-header .title,
     box-shadow: 0 2px 6px 0 rgb(0 70 103 / 7%);
     font-size: 11px;
 }
+
 .user-profile:hover,
 .user-profile:focus,
 .user-profile:active {
@@ -466,19 +478,6 @@ kui-menu-brand .brand img {
 }
 
 /* NAVIGATION BAR */
-
-
-/*Nav bar menu item text and icon colour*/
-/* .nav-link:not(.active) .nav-link-text,
-.nav-link:not(.active) kui-icon {
-    color: var(--menu-item-text-color);
-} */
-
-/*Nav bar menu active item text and icon colour*/
-/* .nav-link.active .nav-link-text,
-.nav-link.active kui-icon {
-    color: var(--menu-item-text-color-active);
-} */
 
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
@@ -506,42 +505,27 @@ a.main-nav-link.nav-link.action:hover {
     width: auto;
 }
 
-/* .main-nav-link.nav-link.active {
-    border-top: solid 1px #ddd;
-    border-bottom: solid 1px #ddd;
-} */
-
-.main-nav-link .nav-link-text,
-.main-nav-link kui-icon {
-  color: var(--menu-item-text-color) !important;
-}
-
-.main-nav-link:hover .nav-link-text,
-.main-nav-link:hover kui-icon {
-  color: var(--menu-item-text-color-hover) !important;
-}
-
-.main-nav-link.active .nav-link-text,
-.main-nav-link.active kui-icon {
-  color: var(--menu-item-text-color-active) !important;
-}
-
-.main-nav-link.active:hover .nav-link-text,
-.main-nav-link.active:hover kui-icon {
-  color: var(--menu-item-text-color-active) !important;
-}
-
-/* .main-nav-link {
-    &.active kui-icon,
-    &:hover kui-icon {
-        color: #333 !important;
+.main-nav-link {
+    .nav-link-text,
+    kui-icon {
+        color: inherit !important;
     }
-} */
+    
+    color: var(--menu-item-text-color);
+    
+    &:hover {
+        color: var(--menu-item-text-color-hover);
+    }
+    
+    &.active,
+    &.active:hover {
+        color: var(--menu-item-text-color-active);
+    }
+}
 
 .main-nav-link.active:before {
     width: 0 !important;
 }
-
 
 .main-nav-link.active {
     border-radius: 1rem !important;
@@ -560,11 +544,13 @@ a.main-nav-link.nav-link.action:hover {
     align-content: center;
     flex-direction: row-reverse;
 }
+
 .map-button.map-button-assets i {
     margin-right: 0;
     margin-left: 8px;
     margin-top: 3px;
 }
+
 .map-button.map-button-assets i:before {
     content: '\f054';
 }
@@ -581,6 +567,7 @@ kui-tab-bar .tab-bar {
 kui-tab-bar .tab-bar ol li.active {
     background: var(--color-pale-blue-bg) !important;
 }
+
 kui-tab-bar .tab-bar ol li.active:hover {
     /* background: #daf0f6 !important; */
     background: var(--color-bg-hover) !important;
@@ -611,12 +598,15 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:first-
     word-wrap: break-word;
     margin-right: 5px;
 }
+
 key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
     justify-content: space-between; /* Override: prevent overlapping text */
 }
+
 kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container key-details-ordered-list-item {
     justify-content: unset; /* Revert for the wider panel on the alt theme; see `Simple Demo Account` (not used much?) */
 }
+
 kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container .list-group-item-text:first-child {
     width: 150px; /* Override: prevent overlapping text */
 }
@@ -630,6 +620,7 @@ key-details-sidebar .list-item .list-item-container .list-group-item-text:last-c
     text-align: left;
     /* margin-left: 0px !important; */ /* Override: prevent overlapping text */
 }
+
 kui-side-panel.position-absolute key-details-sidebar .list-item .list-item-container .list-group-item-text:last-child {
     margin-left: 0px !important; /* Override: Revert for the wider panel on the alt theme; see `Simple Demo Account` (not used much?) */
 }
@@ -660,13 +651,16 @@ key-listing-description {
     width: calc(100% - 30px);
     float: left;
 }
+
 key-listing kui-icon {
     transform: none;
 }
+
 key-listing kui-icon i.icon {
     font-size: 14px !important;
     opacity: unset !important;
 }
+
 key-listing-avatar kui-icon i.icon {
     font-size: 1.5rem !important;
 }
@@ -685,6 +679,7 @@ key-map-options kui-icon {
     display: block !important;
     min-height: 43.5px;
 }
+
 .map-marker-color-bar {
     display: inline-block !important;
 }
@@ -713,9 +708,11 @@ key-map-options kui-icon {
 .feed-entry .feed-entry-details .entry-title {
     flex-direction: column;
 }
+
 .feed-entry .feed-entry-details .entry-title .icon-arrow-right-long {
     padding-left: 15px;
 }
+
 .feed-entry .feed-entry-details .entry-title .icon-arrow-right-long:before {
     content: '\f063';
 }
@@ -738,12 +735,15 @@ key-map-options kui-icon {
 .icon-trip-start .icon {
     color: green !important;
 }
+
 .icon-trip-start .icon:before {
     content: '\f3c5';
 }
+
 .icon-trip-end .icon {
     color: red !important;
 }
+
 .icon-trip-end .icon:before {
     content: '\f60e';
 }
@@ -764,10 +764,6 @@ key-map-options kui-icon {
 }
 
 /* FONT-AWESOME ICON SUBSTITUTION */
-
-/* .main-nav kui-icon {
-    color: var(--color-telematics-blue);
-} */
 
 /* Profile */
 .main-nav .icon-user:before {
@@ -851,6 +847,7 @@ kui-content-header-actions kui-icon .icon-video::before {
     position: relative;
     top: -2px;
 }
+
 @media (min-width: 768px) {
     kui-content-header-actions kui-icon .icon-video::before {
         position: relative;
@@ -911,6 +908,7 @@ key-map-options key-map-option-zones kui-icon .icon-draw-polygon::before {
     height: 1.1em;
     background: currentColor;
 }
+
 /* SMALL Draw / New Geofence (with PLUS) -- DONE, TEST... CLASHES??? */
 key-map-option-zones .compact kui-icon .icon-draw-polygon::before {
     /* content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" fill="none" viewBox="0 0 21 22"><path fill="%2300A7E1" fill-rule="evenodd" d="M17.073 1.317a.507.507 0 0 1 1.014 0v1.738h1.739a.507.507 0 1 1 0 1.014h-1.739v1.739a.507.507 0 1 1-1.014 0V4.069h-1.738a.507.507 0 0 1 0-1.014h1.738V1.317ZM5.284 10.728l.064.15c.126.297.258.591.389.885l-.182.062c-1.208.41-2.2.98-2.888 1.636-.687.657-1.06 1.39-1.06 2.132 0 1.126.862 2.233 2.358 3.07 1.488.833 3.565 1.372 5.895 1.372 2.331 0 4.408-.54 5.896-1.372 1.496-.837 2.358-1.944 2.358-3.07 0-.742-.373-1.475-1.06-2.132-.688-.656-1.68-1.226-2.888-1.636l-.183-.062.346-.781.108-.253.154.053c2.733.945 4.648 2.717 4.648 4.811 0 1.577-1.09 2.972-2.782 3.964-1.697.994-4.03 1.603-6.597 1.603s-4.9-.61-6.596-1.603C1.572 18.565.482 17.17.482 15.593c0-2.094 1.915-3.866 4.648-4.811l.154-.054Z" clip-rule="evenodd"/><path fill="%2300A7E1" fill-rule="evenodd" d="m8.932 15.317.943-.567.947.56-.94 1.588-.95-1.58Zm1.57-1.673c-.371.674-.627 1.106-.627 1.106s-.259-.43-.634-1.103c-.994-1.778-2.804-5.25-2.804-6.928a3.437 3.437 0 1 1 6.875 0c0 1.614-1.818 5.128-2.81 6.925Zm.32 1.666-.947-.56-.943.567-.003-.005-.008-.014-.03-.051a50.602 50.602 0 0 1-.51-.886 53.212 53.212 0 0 1-1.209-2.267 29.505 29.505 0 0 1-1.228-2.759c-.328-.878-.607-1.827-.607-2.616a4.538 4.538 0 0 1 9.075 0c0 .77-.28 1.71-.607 2.578a30.86 30.86 0 0 1-1.226 2.76 56.768 56.768 0 0 1-1.716 3.182l-.03.052-.008.014-.003.005Z" clip-rule="evenodd"/></svg>') !important; */
@@ -937,6 +935,7 @@ key-map-option-zones kui-icon .icon-edit::before {
     height: 1.2em;
     background: currentColor;
 }
+
 /* Edit Geofence icon SMALL (with PENCIL) -- DONE, TEST */
 key-map-option-zones .compact kui-icon .icon-edit::before,
 key-admin-zone-editor key-map-options.compact key-map-options-list kui-icon .icon-draw-polygon::before {
@@ -974,6 +973,7 @@ kui-card-body key-details-ordered-list-item {
     position: relative;
     width: 100%;
 }
+
 kui-card-body .ordered-list-item:hover key-details-ordered-list-item::after {
     content: '⋯';
     right: 10px;
@@ -986,103 +986,3 @@ kui-card-body .ordered-list-item:hover key-details-ordered-list-item::after {
 /* Increase size of date picker */
 .datetime-bar {
 }
-
-/*
-
-@font-face {
-    font-family: 'kinesispro7';
-    src: url("/assets/fonts/kinesispro7.eot");
-    src: url("/assets/fonts/kinesispro7.eot?#iefix") format('embedded-opentype'),
-         url("/assets/fonts/kinesispro7.woff") format('woff'),
-         url("/assets/fonts/kinesispro7.ttf") format('truetype'),
-         url("/assets/fonts/kinesispro7.svg#typicons") format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.icon-compass:before {
-    font-family: 'kinesispro7';
-    content: "\e900";
-    font-size: 1.2em;
-}
-
-.icon-exclamation-triangle:before {
-    font-family: 'kinesispro7';
-    content: "\e901";
-    font-size: 1.2em;
-}
-
-.icon-photo-video:before {
-    font-family: 'kinesispro7';
-    content: "\e902";
-    font-size: 1.2em;
-}
-
-.icon-analytics:before {
-    font-family: 'kinesispro7';
-    content: "\e903";
-    font-size: 1.2em;
-} */
-
-/* .icon-browser:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-} */
-/* 
-.icon-history:before {
-    font-family: 'kinesispro7';
-    content: "\e904";
-    font-size: 1.2em;
-}
-
-.icon-search-location:before {
-    font-family: 'kinesispro7';
-    content: "\e905";
-    font-size: 1.2em;
-}
-
-.icon-chart-pie:before {
-    font-family: 'kinesispro7';
-    content: "\e906";
-    font-size: 1.2em;
-}
-
-.icon-cog:before {
-    font-family: 'kinesispro7';
-    content: "\e907";
-    font-size: 1.2em;
-}
- */
-
-/* .icon-home:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-}
-
-.icon-house-user:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-}
-
-.icon-user:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-}
-
-.icon-bells:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-}
-
-
-.icon-power-off:before {
-    font-family: 'kinesispro7';
-    content: "\e";
-    font-size: 1.2em;
-}
-*/
