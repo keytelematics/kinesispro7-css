@@ -505,21 +505,21 @@ a.main-nav-link.nav-link.action.hover.active {
     border-bottom: solid 1px #ddd;
 } */
 
-.main-nav-link.active .nav-link-text,
-.main-nav-link.active kui-icon {
-    color: var(--menu-item-text-color-active) !important;
-}
-
 .main-nav-link .nav-link-text,
-.main-nav-link kui-icon,
-{
-    color: var(--menu-item-text-color) !important;
+.main-nav-link kui-icon {
+  color: var(--menu-item-text-color) !important;
 }
 
 .main-nav-link:hover .nav-link-text,
 .main-nav-link:hover kui-icon {
-    color: blue !important;
+  color: var(--menu-item-text-color-hover) !important;
 }
+
+.main-nav-link.active .nav-link-text,
+.main-nav-link.active kui-icon {
+  color: var(--menu-item-text-color-active) !important;
+}
+
 
 /* .main-nav-link {
     &.active kui-icon,
