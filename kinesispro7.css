@@ -24,7 +24,7 @@
     --menu-item-bg-color-active: #E2F2FF;
 }
 
-/* Open Sans for sub text */
+/* Manrope for sub text */
 p,
 p a,
 .details-overview__summary .small,
@@ -38,7 +38,7 @@ key-feed-entry-info,
     font-family: Manrope, 'Open Sans', Montserrat, sans-serif;
 }
 
-/* Open Sans for marker labels */
+/* Manrope for marker labels */
 .font-sans-serif {
     font-family:
         Manrope,
