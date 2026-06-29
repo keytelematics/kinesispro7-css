@@ -486,6 +486,12 @@ kui-menu-brand .brand img {
 
 /* NAVIGATION BAR */
 
+.app-menu {
+    * {
+        border-color: var(--grid-item-border) !important;
+    }
+}
+
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
 }
