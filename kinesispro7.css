@@ -22,6 +22,7 @@
     --menu-item-text-color: #5C8BA0;
     --menu-item-text-color-active: #1A333F;
     --menu-item-bg-color-active: #E2F2FF;
+    --grid-item-border: #A0C4D8;
 }
 
 /* Manrope for sub text */
@@ -126,6 +127,11 @@ kui-tab-bar .tab-bar *,
 .app-content *,
 .feed-entry {
     border-color: var(--color-border-grey);
+}
+
+/* Report grid item border colour */
+.grid-item {
+    border-color: var(--grid-item-border) !important;
 }
 
 div:not(#tabs) > .tabs-header > .content-header {
