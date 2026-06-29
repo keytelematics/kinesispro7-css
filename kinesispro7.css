@@ -445,11 +445,15 @@ kui-menu-brand .brand img {
 /* NAVIGATION BAR */
 
 .app-menu {
-    * {
-        border-color: var(--colour-border-blue) !important;
+    kui-user,
+    kui-menu-brand,
+    .app-menu-content-inner,
+    .menu-collapse-arrow {
+        border-color: var(--grid-item-border) !important;
+        border-right-style: solid;
+        border-right-width: var(--navigation-border-width);
     }
 }
-
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
 }
