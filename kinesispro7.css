@@ -450,8 +450,6 @@ kui-menu-brand .brand img {
     .app-menu-content-inner,
     .menu-collapse-arrow {
         border-color: var(--colour-border-blue) !important;
-        border-right-style: solid;
-        border-right-width: var(--navigation-border-width);
     }
 }
 .main-nav .main-nav-link {
