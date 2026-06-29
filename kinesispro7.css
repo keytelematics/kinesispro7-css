@@ -35,12 +35,13 @@ key-listing-stat,
 key-details-overview-summary,
 key-feed-entry-info,
 .item-list label {
-    font-family: 'Open Sans', Montserrat, sans-serif;
+    font-family: Manrope, 'Open Sans', Montserrat, sans-serif;
 }
 
 /* Open Sans for marker labels */
 .font-sans-serif {
     font-family:
+        Manrope,
         'Open Sans',
         Montserrat,
         Ubuntu,
@@ -56,7 +57,7 @@ key-feed-entry-info,
 
 /* reset to primary font */
 key-details-overview-summary h3 {
-    font-family: Montserrat, 'Open Sans', sans-serif;
+    font-family: Manrope, Montserrat, 'Open Sans', sans-serif;
 }
 
 /* Lighter grey text for various */
@@ -434,7 +435,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat;
+    font-family: Manrope;
 }
 
 kui-content-header .content-header .title,
@@ -689,7 +690,7 @@ key-map-options kui-icon {
 /* FEEDS */
 
 .feed-entry .feed-entry-details .accent {
-    font-family: Montserrat;
+    font-family: Manrope;
     font-size: 105%;
 }
 
