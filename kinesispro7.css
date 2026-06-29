@@ -449,7 +449,7 @@ kui-menu-brand .brand img {
     kui-menu-brand,
     .app-menu-content-inner,
     .menu-collapse-arrow {
-        border-color: var(--grid-item-border) !important;
+        border-color: var(--colour-border-blue) !important;
         border-right-style: solid;
         border-right-width: var(--navigation-border-width);
     }
