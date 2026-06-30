@@ -23,6 +23,7 @@
     --menu-item-text-color-active: #1A333F;
     --menu-item-bg-color-active: #E2F2FF;
     --colour-border-blue: #A0C4D8;
+    --color-box-shadow: #D0DCE9;
 }
 
 .font-sans-serif {
@@ -105,6 +106,10 @@ kui-tab-bar .tab-bar *,
     &:not(:hover) {
         border-color: var(--colour-border-blue) !important;
     }
+
+    &:hover {
+        box-shadow: 0px 0px 10px var(--color-box-shadow);
+    }    
 }
 
 div:not(#tabs) > .tabs-header > .content-header {
