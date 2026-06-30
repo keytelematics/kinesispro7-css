@@ -478,8 +478,8 @@ kui-menu-brand .brand img {
     background: var(--menu-item-bg-color-active) !important;
     border-radius: 0.6rem !important;
     margin: 0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    /* padding-left: 0rem;
+    padding-right: 0rem; */
 }
 
 .main-nav-link {
