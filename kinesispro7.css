@@ -100,10 +100,10 @@ kui-tab-bar .tab-bar *,
 
 /* Report grid item border colour */
 .grid-item {
-    border-color: var(--colour-border-blue) !important;
+    border-color: var(--colour-border-blue);
 
-    input {
-        accent-color: var(--color-pale-blue-b) !important;
+    &:not(:hover) {
+        border-color: var(--colour-border-blue) !important;
     }
 }
 
