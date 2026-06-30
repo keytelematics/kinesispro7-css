@@ -448,6 +448,7 @@ kui-menu-brand .brand img {
 
 /* NAVIGATION BAR */
 
+/*Updates the border around the main menu on the left.*/
 .app-menu {
     kui-user,
     kui-menu-brand,
@@ -456,6 +457,8 @@ kui-menu-brand .brand img {
         border-color: var(--colour-border-blue) !important;
     }
 }
+
+
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
 }
@@ -464,6 +467,7 @@ kui-menu-brand .brand img {
     padding: 0.8rem 0rem;
 }
 
+/*Updates the navigation link syling for active an hovering on menu items*/
 :not(.menu-collapsed) a.main-nav-link.nav-link.action.hover.active {
     background: var(--menu-item-bg-color-active) !important;
     border-radius: 0.6rem !important;
@@ -478,6 +482,7 @@ kui-menu-brand .brand img {
     padding-left: 0.8rem;
 }
 
+/*Updates to the collasped menu items so it applies the same colours but doesn't get affected by margin and padding changes*/
 .menu-collapsed a.main-nav-link.nav-link.action.hover.active {
     background: var(--menu-item-bg-color-active) !important;
     border-radius: 0.6rem !important;
@@ -490,6 +495,7 @@ kui-menu-brand .brand img {
     width: auto;
 }
 
+/*Sets the color correctly for the navigation item icon and text*/
 .main-nav-link .nav-link-text,
 .main-nav-link kui-icon {
   color: var(--menu-item-text-color) !important;
