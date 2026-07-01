@@ -463,7 +463,6 @@ kui-menu-brand .brand img {
     }
 }
 
-
 .main-nav .main-nav-link {
     padding: 10px 5px 10px 15px;
 }
@@ -978,8 +977,4 @@ kui-card-body .ordered-list-item:hover key-details-ordered-list-item::after {
     transform: translateY(-45%);
     position: absolute;
     color: #888;
-}
-
-/* Increase size of date picker */
-.datetime-bar {
 }
