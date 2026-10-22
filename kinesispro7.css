@@ -196,9 +196,9 @@ key-overview-details kui-tab-bar .tab-bar ol li:last-of-type {
     margin-right: 0;
 }
 
-kui-content-header:not(.datetime-bar) .content-header {
+/* kui-content-header:not(.datetime-bar) .content-header {
     height: auto;
-}
+} */
 
 key-overview-details tab-bar .text-truncate {
     text-overflow: unset;
